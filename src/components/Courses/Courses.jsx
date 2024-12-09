@@ -154,7 +154,7 @@ export default function Courses() {
     <section className={classes.courses}>
       <div className={classes.coursesContainer}>
         <div className={mainClasses.navigation}>
-          <Link to="/" className={mainClasses.navigationLink}>
+          <Link to="/zddt-kiosk" className={mainClasses.navigationLink}>
             Главная
           </Link>
           <FontAwesomeIcon
@@ -162,7 +162,7 @@ export default function Courses() {
             icon={faAngleRight}
           />
           <Link
-            to="/courses"
+            to="/zddt-kiosk/courses"
             className={`${mainClasses.navigationLink} ${mainClasses.current}`}
           >
             Образовательные программы

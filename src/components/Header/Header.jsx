@@ -62,7 +62,7 @@ export default function Header() {
       <div className={classes.headerContainer}>
         <div className={classes.headerLogo}>
           <div>
-            <Link onClick={() => showMenu && setShowMenu()} to="/zddt-kiosk">
+            <Link onClick={() => showMenu && setShowMenu()} to="/zddt-kiosk/">
               {adaptiveLogo ? (
                 <div className={classes.adaptiveLogoContainer}>
                   <img

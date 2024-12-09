@@ -19,7 +19,7 @@ export const coursesCardsData = [
       {
         programmName: "Изостудия «Творец»",
         teacher: {
-          teacherPic: ["./img/About/women-avatar.png"],
+          teacherPic: ["../img/About/women-avatar.png"],
           teacherName: ["Дубровская Наталия Вадимовна"],
         },
         category: "художественная",
@@ -82,7 +82,7 @@ export const coursesCardsData = [
       {
         programmName: "Народная игрушка «Чудеса из сундучка»",
         teacher: {
-          teacherPic: ["./img/About/women-avatar.png"],
+          teacherPic: ["../img/About/women-avatar.png"],
           teacherName: ["Дубровская Наталия Вадимовна"],
         },
         category: "художественная",
@@ -126,7 +126,7 @@ export const coursesCardsData = [
       {
         programmName: "Куклотерапия «Играйте, на здоровье!»",
         teacher: {
-          teacherPic: ["./img/About/women-avatar.png"],
+          teacherPic: ["../img/About/women-avatar.png"],
           teacherName: ["Дубровская Наталия Вадимовна"],
         },
         category: "художественная",
@@ -177,7 +177,7 @@ export const coursesCardsData = [
       {
         programmName: "Творческая студия «Цвет»",
         teacher: {
-          teacherPic: ["./img/About/18.png"],
+          teacherPic: ["../img/About/18.png"],
           teacherName: ["Мершеева Евгения Александровна"],
         },
         category: "художественная",
@@ -262,7 +262,7 @@ export const coursesCardsData = [
         programmName:
           "Вокальный ансамбль «Маленькие звездочки» (первые шаги в музыке)",
         teacher: {
-          teacherPic: ["./img/About/11.png"],
+          teacherPic: ["../img/About/11.png"],
           teacherName: ["Гольцова Наталья Георгиевна"],
         },
         category: "художественная",
@@ -325,7 +325,7 @@ export const coursesCardsData = [
       {
         programmName: "Вокальный ансамбль «Маленькие звездочки»",
         teacher: {
-          teacherPic: ["./img/About/11.png"],
+          teacherPic: ["../img/About/11.png"],
           teacherName: ["Гольцова Наталья Георгиевна"],
         },
         category: "художественная",
@@ -404,7 +404,7 @@ export const coursesCardsData = [
       {
         programmName: "Керамисты",
         teacher: {
-          teacherPic: ["./img/About/women-avatar.png"],
+          teacherPic: ["../img/About/women-avatar.png"],
           teacherName: ["Сабирова Динара Рафаиловна"],
         },
         category: "художественная",
@@ -524,10 +524,10 @@ export const coursesCardsData = [
         programmName: "Коллектив современного и эстрадного танца «Magic Dance»",
         teacher: {
           teacherPic: [
-            "./img/About/women-avatar.png",
-            "./img/About/16.png",
-            "./img/About/22.png",
-            "./img/About/women-avatar.png",
+            "../img/About/women-avatar.png",
+            "../img/About/16.png",
+            "../img/About/22.png",
+            "../img/About/women-avatar.png",
           ],
           teacherName: [
             "Орлова Ирина Павловна",
@@ -735,7 +735,7 @@ export const coursesCardsData = [
   //     {
   //       programmName: "Студия текстиля «Волшебные лоскутки»",
   //       teacher: {
-  //         teacherPic: ["./img/About/women-avatar.png"],
+  //         teacherPic: ["../img/About/women-avatar.png"],
   //         teacherName: ["Дубровская Наталия Вадимовна"],
   //       },
   //       category: "художественная",
@@ -785,7 +785,7 @@ export const coursesCardsData = [
       {
         programmName: "Гончарная мастерская",
         teacher: {
-          teacherPic: ["./img/About/21.png"],
+          teacherPic: ["../img/About/21.png"],
           teacherName: ["Рябченко-Лякс Наталья Сергеевна"],
         },
         category: "художественная",
@@ -863,7 +863,7 @@ export const coursesCardsData = [
       {
         programmName: "Золотой наперсток",
         teacher: {
-          teacherPic: ["./img/About/23.png"],
+          teacherPic: ["../img/About/23.png"],
           teacherName: ["Степаненко Лилия Викторовна"],
         },
         category: "художественная",
@@ -924,7 +924,7 @@ export const coursesCardsData = [
       {
         programmName: "Золотой наперсток. Дизайн одежды",
         teacher: {
-          teacherPic: ["./img/About/23.png"],
+          teacherPic: ["../img/About/23.png"],
           teacherName: ["Степаненко Лилия Викторовна"],
         },
         category: "художественная",
@@ -966,7 +966,7 @@ export const coursesCardsData = [
       {
         programmName: "Живопись",
         teacher: {
-          teacherPic: ["./img/About/women-avatar.png"],
+          teacherPic: ["../img/About/women-avatar.png"],
           teacherName: ["Дубровская Наталия Вадимовна"],
         },
         category: "художественная",
@@ -1010,7 +1010,7 @@ export const coursesCardsData = [
       {
         programmName: "Студия вязания «Паутинка»",
         teacher: {
-          teacherPic: ["./img/About/15.png"],
+          teacherPic: ["../img/About/15.png"],
           teacherName: ["Ларина Наталья Владимировна"],
         },
         category: "художественная",
@@ -1041,7 +1041,7 @@ export const coursesCardsData = [
       {
         programmName: "Студия вязания «Чудесный клубок»",
         teacher: {
-          teacherPic: ["./img/About/15.png"],
+          teacherPic: ["../img/About/15.png"],
           teacherName: ["Ларина Наталья Владимировна"],
         },
         category: "художественная",
@@ -1083,7 +1083,7 @@ export const coursesCardsData = [
       {
         programmName: "Академия рукоделия. Стильные аксессуары и украшения",
         teacher: {
-          teacherPic: ["./img/About/12.png"],
+          teacherPic: ["../img/About/12.png"],
           teacherName: ["Дерец Юлиана Валентиновна"],
         },
         category: "художественная",
@@ -1119,7 +1119,7 @@ export const coursesCardsData = [
       {
         programmName: "Академия рукоделия. Валяние из шерсти",
         teacher: {
-          teacherPic: ["./img/About/12.png"],
+          teacherPic: ["../img/About/12.png"],
           teacherName: ["Дерец Юлиана Валентиновна"],
         },
         category: "художественная",
@@ -1150,7 +1150,7 @@ export const coursesCardsData = [
       {
         programmName: "Академия рукоделия. Мягкая Игрушка",
         teacher: {
-          teacherPic: ["./img/About/12.png"],
+          teacherPic: ["../img/About/12.png"],
           teacherName: ["Дерец Юлиана Валентиновна"],
         },
         category: "художественная",
@@ -1204,7 +1204,7 @@ export const coursesCardsData = [
       {
         programmName: "Мастерская художника",
         teacher: {
-          teacherPic: ["./img/About/21.png"],
+          teacherPic: ["../img/About/21.png"],
           teacherName: ["Рябченко-Лякс Наталья Сергеевна"],
         },
         category: "художественная",
@@ -1297,7 +1297,7 @@ export const coursesCardsData = [
       {
         programmName: `Театральная студия «Сказка»`,
         teacher: {
-          teacherPic: ["./img/About/women-avatar.png"],
+          teacherPic: ["../img/About/women-avatar.png"],
           teacherName: ["Налимова Мария Анатольевна"],
         },
         category: "художественная",
@@ -1344,7 +1344,7 @@ export const coursesCardsData = [
       {
         programmName: `Художественная мастерская «Исследователи»`,
         teacher: {
-          teacherPic: ["./img/About/18.png"],
+          teacherPic: ["../img/About/18.png"],
           teacherName: ["Мершеева Евгения Александровна"],
         },
         category: "художественная",
@@ -1387,7 +1387,7 @@ export const coursesCardsData = [
       {
         programmName: "Студия вышивки «Искусница»",
         teacher: {
-          teacherPic: ["./img/About/15.png"],
+          teacherPic: ["../img/About/15.png"],
           teacherName: ["Ларина Наталья Владимировна"],
         },
         category: "художественная",
@@ -1430,7 +1430,7 @@ export const coursesCardsData = [
       {
         programmName: "Дизайн-студия «Впечатление»",
         teacher: {
-          teacherPic: ["./img/About/24.png"],
+          teacherPic: ["../img/About/24.png"],
           teacherName: ["Ярош Лариса Николаевна"],
         },
         category: "техническая",
@@ -1476,7 +1476,7 @@ export const coursesCardsData = [
       {
         programmName: "Дизайн-студия «Впечатление» PRO",
         teacher: {
-          teacherPic: ["./img/About/24.png"],
+          teacherPic: ["../img/About/24.png"],
           teacherName: ["Ярош Лариса Николаевна"],
         },
         category: "техническая",
@@ -1542,7 +1542,7 @@ export const coursesCardsData = [
       {
         programmName: "Шекспирята",
         teacher: {
-          teacherPic: ["./img/About/17.png"],
+          teacherPic: ["../img/About/17.png"],
           teacherName: ["Матвеева Наталья Евгеньевна"],
         },
         category: "социально-гуманитарная",
@@ -1608,7 +1608,7 @@ export const coursesCardsData = [
       {
         programmName: "Английский клуб для малышей",
         teacher: {
-          teacherPic: ["./img/About/20.png"],
+          teacherPic: ["../img/About/20.png"],
           teacherName: ["Ревенкова Екатерина Владимировна"],
         },
         category: "социально-гуманитарная",
@@ -1641,7 +1641,7 @@ export const coursesCardsData = [
       {
         programmName: "Английский клуб: Юниоры, 1 ступень",
         teacher: {
-          teacherPic: ["./img/About/20.png"],
+          teacherPic: ["../img/About/20.png"],
           teacherName: ["Ревенкова Екатерина Владимировна"],
         },
         category: "социально-гуманитарная",
@@ -1717,7 +1717,7 @@ export const coursesCardsData = [
       {
         programmName: "Английский клуб: Юниоры, 2 ступень",
         teacher: {
-          teacherPic: ["./img/About/20.png"],
+          teacherPic: ["../img/About/20.png"],
           teacherName: ["Ревенкова Екатерина Владимировна"],
         },
         category: "социально-гуманитарная",
@@ -1774,7 +1774,7 @@ export const coursesCardsData = [
       {
         programmName: `К.И.Т (для детей с ОВЗ)`,
         teacher: {
-          teacherPic: ["./img/About/18.png"],
+          teacherPic: ["../img/About/18.png"],
           teacherName: ["Мершеева Евгения Александровна"],
         },
         category: "социально-гуманитарная",
@@ -1816,7 +1816,7 @@ export const coursesCardsData = [
       {
         programmName: `Журналистика`,
         teacher: {
-          teacherPic: ["./img/About/women-avatar.png"],
+          teacherPic: ["../img/About/women-avatar.png"],
           teacherName: ["Комиссарова Любовь Алексеевна"],
         },
         category: "социально-гуманитарная",
@@ -1889,7 +1889,7 @@ export const coursesCardsData = [
       {
         programmName: "Центр развития Шисоку-каратэ",
         teacher: {
-          teacherPic: ["./img/About/9.png"],
+          teacherPic: ["../img/About/9.png"],
           teacherName: ["Баранов Евгений Сергеевич"],
         },
         category: "физкультурно-спортивная",
@@ -1935,7 +1935,7 @@ export const coursesCardsData = [
       {
         programmName: "Центр развития Шисоку-каратэ для малышей",
         teacher: {
-          teacherPic: ["./img/About/17.png"],
+          teacherPic: ["../img/About/17.png"],
           teacherName: ["Матвеева Наталья Евгеньевна"],
         },
         category: "физкультурно-спортивная",
@@ -2017,7 +2017,7 @@ export const coursesCardsData = [
       {
         programmName: "Акробатика",
         teacher: {
-          teacherPic: ["./img/About/women-avatar.png"],
+          teacherPic: ["../img/About/women-avatar.png"],
           teacherName: ["Копцева Елизавета Михайловна"],
         },
         category: "физкультурно-спортивная",
@@ -2060,7 +2060,7 @@ export const coursesCardsData = [
       {
         programmName: "Юнармия",
         teacher: {
-          teacherPic: ["./img/About/men-avatar.png"],
+          teacherPic: ["../img/About/men-avatar.png"],
           teacherName: ["Кузнецов Алексей Юрьевич"],
         },
         category: "физкультурно-спортивная",

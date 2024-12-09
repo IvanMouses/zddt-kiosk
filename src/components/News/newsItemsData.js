@@ -5,13 +5,13 @@ export const newsItemsData = [
       alt: "Фото с мастеркласса",
       gallery: [
         {
-          src: "./img/News/flower_of_friendship/1.jpg",
+          src: "../img/News/flower_of_friendship/1.jpg",
         },
         {
-          src: "./img/News/flower_of_friendship/2.jpg",
+          src: "../img/News/flower_of_friendship/2.jpg",
         },
         {
-          src: "./img/News/flower_of_friendship/3.jpg",
+          src: "../img/News/flower_of_friendship/3.jpg",
         },
       ],
     },
@@ -29,34 +29,34 @@ export const newsItemsData = [
       alt: "Фото с концерта",
       gallery: [
         {
-          src: "./img/News/prosto_mama/1.jpg",
+          src: "../img/News/prosto_mama/1.jpg",
         },
         {
-          src: "./img/News/prosto_mama/2.jpg",
+          src: "../img/News/prosto_mama/2.jpg",
         },
         {
-          src: "./img/News/prosto_mama/3.jpg",
+          src: "../img/News/prosto_mama/3.jpg",
         },
         {
-          src: "./img/News/prosto_mama/4.jpg",
+          src: "../img/News/prosto_mama/4.jpg",
         },
         {
-          src: "./img/News/prosto_mama/5.jpg",
+          src: "../img/News/prosto_mama/5.jpg",
         },
         {
-          src: "./img/News/prosto_mama/6.jpg",
+          src: "../img/News/prosto_mama/6.jpg",
         },
         {
-          src: "./img/News/prosto_mama/7.jpg",
+          src: "../img/News/prosto_mama/7.jpg",
         },
         {
-          src: "./img/News/prosto_mama/8.jpg",
+          src: "../img/News/prosto_mama/8.jpg",
         },
         {
-          src: "./img/News/prosto_mama/9.jpg",
+          src: "../img/News/prosto_mama/9.jpg",
         },
         {
-          src: "./img/News/prosto_mama/10.jpg",
+          src: "../img/News/prosto_mama/10.jpg",
         },
       ],
     },
@@ -76,25 +76,25 @@ export const newsItemsData = [
       alt: "Фестиваль",
       gallery: [
         {
-          src: "./img/News/puteshestvie_vo_vremeni/1.jpg",
+          src: "../img/News/puteshestvie_vo_vremeni/1.jpg",
         },
         {
-          src: "./img/News/puteshestvie_vo_vremeni/2.jpg",
+          src: "../img/News/puteshestvie_vo_vremeni/2.jpg",
         },
         {
-          src: "./img/News/puteshestvie_vo_vremeni/3.jpg",
+          src: "../img/News/puteshestvie_vo_vremeni/3.jpg",
         },
         {
-          src: "./img/News/puteshestvie_vo_vremeni/4.jpg",
+          src: "../img/News/puteshestvie_vo_vremeni/4.jpg",
         },
         {
-          src: "./img/News/puteshestvie_vo_vremeni/5.jpg",
+          src: "../img/News/puteshestvie_vo_vremeni/5.jpg",
         },
         {
-          src: "./img/News/puteshestvie_vo_vremeni/6.jpg",
+          src: "../img/News/puteshestvie_vo_vremeni/6.jpg",
         },
         {
-          src: "./img/News/puteshestvie_vo_vremeni/7.jpg",
+          src: "../img/News/puteshestvie_vo_vremeni/7.jpg",
         },
       ],
     },
@@ -115,22 +115,22 @@ export const newsItemsData = [
       alt: "Участницы коллектива MD",
       gallery: [
         {
-          src: "./img/News/prodance_spb/1.jpg",
+          src: "../img/News/prodance_spb/1.jpg",
         },
         {
-          src: "./img/News/prodance_spb/2.jpg",
+          src: "../img/News/prodance_spb/2.jpg",
         },
         {
-          src: "./img/News/prodance_spb/3.jpg",
+          src: "../img/News/prodance_spb/3.jpg",
         },
         {
-          src: "./img/News/prodance_spb/4.jpg",
+          src: "../img/News/prodance_spb/4.jpg",
         },
         {
-          src: "./img/News/prodance_spb/5.jpg",
+          src: "../img/News/prodance_spb/5.jpg",
         },
         {
-          src: "./img/News/prodance_spb/6.jpg",
+          src: "../img/News/prodance_spb/6.jpg",
         },
       ],
     },
@@ -162,28 +162,28 @@ export const newsItemsData = [
       alt: "Семинар в самом разгаре!",
       gallery: [
         {
-          src: "./img/News/tochka_rosta/1.jpg",
+          src: "../img/News/tochka_rosta/1.jpg",
         },
         {
-          src: "./img/News/tochka_rosta/2.jpg",
+          src: "../img/News/tochka_rosta/2.jpg",
         },
         {
-          src: "./img/News/tochka_rosta/3.jpg",
+          src: "../img/News/tochka_rosta/3.jpg",
         },
         {
-          src: "./img/News/tochka_rosta/4.jpg",
+          src: "../img/News/tochka_rosta/4.jpg",
         },
         {
-          src: "./img/News/tochka_rosta/5.jpg",
+          src: "../img/News/tochka_rosta/5.jpg",
         },
         {
-          src: "./img/News/tochka_rosta/6.jpg",
+          src: "../img/News/tochka_rosta/6.jpg",
         },
         {
-          src: "./img/News/tochka_rosta/7.jpg",
+          src: "../img/News/tochka_rosta/7.jpg",
         },
         {
-          src: "./img/News/tochka_rosta/8.jpg",
+          src: "../img/News/tochka_rosta/8.jpg",
         },
       ],
     },
@@ -202,22 +202,22 @@ export const newsItemsData = [
       alt: "Юнармия в Курортном районе",
       gallery: [
         {
-          src: "./img/News/priem_yunarmiyu/1.jpg",
+          src: "../img/News/priem_yunarmiyu/1.jpg",
         },
         {
-          src: "./img/News/priem_yunarmiyu/2.jpg",
+          src: "../img/News/priem_yunarmiyu/2.jpg",
         },
         {
-          src: "./img/News/priem_yunarmiyu/3.jpg",
+          src: "../img/News/priem_yunarmiyu/3.jpg",
         },
         {
-          src: "./img/News/priem_yunarmiyu/4.jpg",
+          src: "../img/News/priem_yunarmiyu/4.jpg",
         },
         {
-          src: "./img/News/priem_yunarmiyu/5.jpg",
+          src: "../img/News/priem_yunarmiyu/5.jpg",
         },
         {
-          src: "./img/News/priem_yunarmiyu/6.jpg",
+          src: "../img/News/priem_yunarmiyu/6.jpg",
         },
       ],
     },
@@ -240,34 +240,34 @@ export const newsItemsData = [
       alt: "Собаки на службе",
       gallery: [
         {
-          src: "./img/News/chetveronogie_pomoshchniki/1.jpg",
+          src: "../img/News/chetveronogie_pomoshchniki/1.jpg",
         },
         {
-          src: "./img/News/chetveronogie_pomoshchniki/2.jpg",
+          src: "../img/News/chetveronogie_pomoshchniki/2.jpg",
         },
         {
-          src: "./img/News/chetveronogie_pomoshchniki/3.jpg",
+          src: "../img/News/chetveronogie_pomoshchniki/3.jpg",
         },
         {
-          src: "./img/News/chetveronogie_pomoshchniki/4.jpg",
+          src: "../img/News/chetveronogie_pomoshchniki/4.jpg",
         },
         {
-          src: "./img/News/chetveronogie_pomoshchniki/5.jpg",
+          src: "../img/News/chetveronogie_pomoshchniki/5.jpg",
         },
         {
-          src: "./img/News/chetveronogie_pomoshchniki/6.jpg",
+          src: "../img/News/chetveronogie_pomoshchniki/6.jpg",
         },
         {
-          src: "./img/News/chetveronogie_pomoshchniki/7.jpg",
+          src: "../img/News/chetveronogie_pomoshchniki/7.jpg",
         },
         {
-          src: "./img/News/chetveronogie_pomoshchniki/8.jpg",
+          src: "../img/News/chetveronogie_pomoshchniki/8.jpg",
         },
         {
-          src: "./img/News/chetveronogie_pomoshchniki/9.jpg",
+          src: "../img/News/chetveronogie_pomoshchniki/9.jpg",
         },
         {
-          src: "./img/News/chetveronogie_pomoshchniki/10.jpg",
+          src: "../img/News/chetveronogie_pomoshchniki/10.jpg",
         },
       ],
     },
@@ -288,28 +288,28 @@ export const newsItemsData = [
       alt: "Анонс выставки",
       gallery: [
         {
-          src: "./img/News/sherstyanye_chudesa_vystavka/1.jpg",
+          src: "../img/News/sherstyanye_chudesa_vystavka/1.jpg",
         },
         {
-          src: "./img/News/sherstyanye_chudesa_vystavka/2.jpg",
+          src: "../img/News/sherstyanye_chudesa_vystavka/2.jpg",
         },
         {
-          src: "./img/News/sherstyanye_chudesa_vystavka/3.JPG",
+          src: "../img/News/sherstyanye_chudesa_vystavka/3.JPG",
         },
         {
-          src: "./img/News/sherstyanye_chudesa_vystavka/4.jpg",
+          src: "../img/News/sherstyanye_chudesa_vystavka/4.jpg",
         },
         {
-          src: "./img/News/sherstyanye_chudesa_vystavka/5.jpg",
+          src: "../img/News/sherstyanye_chudesa_vystavka/5.jpg",
         },
         {
-          src: "./img/News/sherstyanye_chudesa_vystavka/6.jpg",
+          src: "../img/News/sherstyanye_chudesa_vystavka/6.jpg",
         },
         {
-          src: "./img/News/sherstyanye_chudesa_vystavka/7.jpg",
+          src: "../img/News/sherstyanye_chudesa_vystavka/7.jpg",
         },
         {
-          src: "./img/News/sherstyanye_chudesa_vystavka/8.jpg",
+          src: "../img/News/sherstyanye_chudesa_vystavka/8.jpg",
         },
       ],
     },
@@ -327,16 +327,16 @@ export const newsItemsData = [
       alt: "Конкурс рецептов в самом разгаре",
       gallery: [
         {
-          src: "./img/News/semejnye_recepty/1.jpg",
+          src: "../img/News/semejnye_recepty/1.jpg",
         },
         {
-          src: "./img/News/semejnye_recepty/2.jpg",
+          src: "../img/News/semejnye_recepty/2.jpg",
         },
         {
-          src: "./img/News/semejnye_recepty/3.jpg",
+          src: "../img/News/semejnye_recepty/3.jpg",
         },
         {
-          src: "./img/News/semejnye_recepty/4.jpg",
+          src: "../img/News/semejnye_recepty/4.jpg",
         },
       ],
     },
@@ -353,25 +353,25 @@ export const newsItemsData = [
       alt: "Концерт",
       gallery: [
         {
-          src: "./img/News/den_pozhilogo_cheloveka/1.jpg",
+          src: "../img/News/den_pozhilogo_cheloveka/1.jpg",
         },
         {
-          src: "./img/News/den_pozhilogo_cheloveka/2.jpg",
+          src: "../img/News/den_pozhilogo_cheloveka/2.jpg",
         },
         {
-          src: "./img/News/den_pozhilogo_cheloveka/3.jpg",
+          src: "../img/News/den_pozhilogo_cheloveka/3.jpg",
         },
         {
-          src: "./img/News/den_pozhilogo_cheloveka/4.jpg",
+          src: "../img/News/den_pozhilogo_cheloveka/4.jpg",
         },
         {
-          src: "./img/News/den_pozhilogo_cheloveka/5.jpg",
+          src: "../img/News/den_pozhilogo_cheloveka/5.jpg",
         },
         {
-          src: "./img/News/den_pozhilogo_cheloveka/6.jpg",
+          src: "../img/News/den_pozhilogo_cheloveka/6.jpg",
         },
         {
-          src: "./img/News/den_pozhilogo_cheloveka/7.jpg",
+          src: "../img/News/den_pozhilogo_cheloveka/7.jpg",
         },
       ],
     },
@@ -388,37 +388,37 @@ export const newsItemsData = [
       alt: "Одна из открыток на конкурс",
       gallery: [
         {
-          src: "./img/News/konkurs_otkrytok/1.jpg",
+          src: "../img/News/konkurs_otkrytok/1.jpg",
         },
         {
-          src: "./img/News/konkurs_otkrytok/2.jpg",
+          src: "../img/News/konkurs_otkrytok/2.jpg",
         },
         {
-          src: "./img/News/konkurs_otkrytok/3.jpg",
+          src: "../img/News/konkurs_otkrytok/3.jpg",
         },
         {
-          src: "./img/News/konkurs_otkrytok/4.jpg",
+          src: "../img/News/konkurs_otkrytok/4.jpg",
         },
         {
-          src: "./img/News/konkurs_otkrytok/5.jpg",
+          src: "../img/News/konkurs_otkrytok/5.jpg",
         },
         {
-          src: "./img/News/konkurs_otkrytok/6.jpg",
+          src: "../img/News/konkurs_otkrytok/6.jpg",
         },
         {
-          src: "./img/News/konkurs_otkrytok/7.jpg",
+          src: "../img/News/konkurs_otkrytok/7.jpg",
         },
         {
-          src: "./img/News/konkurs_otkrytok/8.jpg",
+          src: "../img/News/konkurs_otkrytok/8.jpg",
         },
         {
-          src: "./img/News/konkurs_otkrytok/9.jpg",
+          src: "../img/News/konkurs_otkrytok/9.jpg",
         },
         {
-          src: "./img/News/konkurs_otkrytok/10.jpg",
+          src: "../img/News/konkurs_otkrytok/10.jpg",
         },
         {
-          src: "./img/News/konkurs_otkrytok/11.jpg",
+          src: "../img/News/konkurs_otkrytok/11.jpg",
         },
       ],
     },
@@ -436,40 +436,40 @@ export const newsItemsData = [
       alt: "Парта Героя",
       gallery: [
         {
-          src: "./img/News/parta_geroya/1.jpg",
+          src: "../img/News/parta_geroya/1.jpg",
         },
         {
-          src: "./img/News/parta_geroya/2.jpg",
+          src: "../img/News/parta_geroya/2.jpg",
         },
         {
-          src: "./img/News/parta_geroya/3.jpg",
+          src: "../img/News/parta_geroya/3.jpg",
         },
         {
-          src: "./img/News/parta_geroya/4.jpg",
+          src: "../img/News/parta_geroya/4.jpg",
         },
         {
-          src: "./img/News/parta_geroya/5.jpg",
+          src: "../img/News/parta_geroya/5.jpg",
         },
         {
-          src: "./img/News/parta_geroya/6.jpg",
+          src: "../img/News/parta_geroya/6.jpg",
         },
         {
-          src: "./img/News/parta_geroya/7.jpg",
+          src: "../img/News/parta_geroya/7.jpg",
         },
         {
-          src: "./img/News/parta_geroya/8.jpg",
+          src: "../img/News/parta_geroya/8.jpg",
         },
         {
-          src: "./img/News/parta_geroya/9.jpg",
+          src: "../img/News/parta_geroya/9.jpg",
         },
         {
-          src: "./img/News/parta_geroya/10.jpg",
+          src: "../img/News/parta_geroya/10.jpg",
         },
         {
-          src: "./img/News/parta_geroya/11.jpg",
+          src: "../img/News/parta_geroya/11.jpg",
         },
         {
-          src: "./img/News/parta_geroya/12.jpg",
+          src: "../img/News/parta_geroya/12.jpg",
         },
       ],
     },
@@ -488,25 +488,25 @@ export const newsItemsData = [
       alt: "Игра по станциям Эколята",
       gallery: [
         {
-          src: "./img/News/igra_po_stanciyam_ekolyata/1.jpg",
+          src: "../img/News/igra_po_stanciyam_ekolyata/1.jpg",
         },
         {
-          src: "./img/News/igra_po_stanciyam_ekolyata/2.jpg",
+          src: "../img/News/igra_po_stanciyam_ekolyata/2.jpg",
         },
         {
-          src: "./img/News/igra_po_stanciyam_ekolyata/3.jpg",
+          src: "../img/News/igra_po_stanciyam_ekolyata/3.jpg",
         },
         {
-          src: "./img/News/igra_po_stanciyam_ekolyata/4.jpg",
+          src: "../img/News/igra_po_stanciyam_ekolyata/4.jpg",
         },
         {
-          src: "./img/News/igra_po_stanciyam_ekolyata/5.jpg",
+          src: "../img/News/igra_po_stanciyam_ekolyata/5.jpg",
         },
         {
-          src: "./img/News/igra_po_stanciyam_ekolyata/6.jpg",
+          src: "../img/News/igra_po_stanciyam_ekolyata/6.jpg",
         },
         {
-          src: "./img/News/igra_po_stanciyam_ekolyata/7.jpg",
+          src: "../img/News/igra_po_stanciyam_ekolyata/7.jpg",
         },
       ],
     },
@@ -529,28 +529,28 @@ export const newsItemsData = [
       alt: "Что-то каратэшное",
       gallery: [
         {
-          src: "./img/News/smena_zerkal'nom/1.jpg",
+          src: "../img/News/smena_zerkal'nom/1.jpg",
         },
         {
-          src: "./img/News/smena_zerkal'nom/2.jpg",
+          src: "../img/News/smena_zerkal'nom/2.jpg",
         },
         {
-          src: "./img/News/smena_zerkal'nom/3.jpg",
+          src: "../img/News/smena_zerkal'nom/3.jpg",
         },
         {
-          src: "./img/News/smena_zerkal'nom/4.jpg",
+          src: "../img/News/smena_zerkal'nom/4.jpg",
         },
         {
-          src: "./img/News/smena_zerkal'nom/5.jpg",
+          src: "../img/News/smena_zerkal'nom/5.jpg",
         },
         {
-          src: "./img/News/smena_zerkal'nom/6.jpg",
+          src: "../img/News/smena_zerkal'nom/6.jpg",
         },
         {
-          src: "./img/News/smena_zerkal'nom/7.jpg",
+          src: "../img/News/smena_zerkal'nom/7.jpg",
         },
         {
-          src: "./img/News/smena_zerkal'nom/8.jpg",
+          src: "../img/News/smena_zerkal'nom/8.jpg",
         },
       ],
     },
@@ -577,28 +577,28 @@ export const newsItemsData = [
       alt: "Что-то каратэшное",
       gallery: [
         {
-          src: "./img/News/karate_turnir_wow/1.jpg",
+          src: "../img/News/karate_turnir_wow/1.jpg",
         },
         {
-          src: "./img/News/karate_turnir_wow/2.jpg",
+          src: "../img/News/karate_turnir_wow/2.jpg",
         },
         {
-          src: "./img/News/karate_turnir_wow/3.jpg",
+          src: "../img/News/karate_turnir_wow/3.jpg",
         },
         {
-          src: "./img/News/karate_turnir_wow/4.jpg",
+          src: "../img/News/karate_turnir_wow/4.jpg",
         },
         {
-          src: "./img/News/karate_turnir_wow/5.jpg",
+          src: "../img/News/karate_turnir_wow/5.jpg",
         },
         {
-          src: "./img/News/karate_turnir_wow/6.jpg",
+          src: "../img/News/karate_turnir_wow/6.jpg",
         },
         {
-          src: "./img/News/karate_turnir_wow/7.jpg",
+          src: "../img/News/karate_turnir_wow/7.jpg",
         },
         {
-          src: "./img/News/karate_turnir_wow/8.jpg",
+          src: "../img/News/karate_turnir_wow/8.jpg",
         },
       ],
     },
@@ -623,19 +623,19 @@ export const newsItemsData = [
       alt: "Руководитель занятий руководит",
       gallery: [
         {
-          src: "./img/News/raz_dva_levoj/1.JPG",
+          src: "../img/News/raz_dva_levoj/1.JPG",
         },
         {
-          src: "./img/News/raz_dva_levoj/2.JPG",
+          src: "../img/News/raz_dva_levoj/2.JPG",
         },
         {
-          src: "./img/News/raz_dva_levoj/3.JPG",
+          src: "../img/News/raz_dva_levoj/3.JPG",
         },
         {
-          src: "./img/News/raz_dva_levoj/4.JPG",
+          src: "../img/News/raz_dva_levoj/4.JPG",
         },
         {
-          src: "./img/News/raz_dva_levoj/5.JPG",
+          src: "../img/News/raz_dva_levoj/5.JPG",
         },
       ],
     },
@@ -669,148 +669,148 @@ export const newsItemsData = [
       alt: "Паспорта лежат красивые да конституции ",
       gallery: [
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/1.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/1.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/2.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/2.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/3.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/3.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/4.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/4.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/5.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/5.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/6.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/6.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/7.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/7.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/8.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/8.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/9.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/9.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/10.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/10.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/11.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/11.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/12.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/12.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/13.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/13.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/14.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/14.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/15.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/15.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/16.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/16.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/17.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/17.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/18.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/18.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/19.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/19.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/20.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/20.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/21.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/21.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/22.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/22.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/23.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/23.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/24.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/24.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/25.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/25.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/26.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/26.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/27.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/27.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/28.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/28.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/29.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/29.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/30.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/30.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/31.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/31.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/32.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/32.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/33.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/33.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/34.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/34.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/35.jpg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/35.jpg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/36.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/36.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/37.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/37.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/38.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/38.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/39.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/39.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/40.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/40.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/41.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/41.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/42.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/42.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/43.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/43.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/44.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/44.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/45.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/45.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/46.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/46.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/47.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/47.jpeg",
         },
         {
-          src: "./img/News/torzhestvennoe_vruchenie_pasportov/48.jpeg",
+          src: "../img/News/torzhestvennoe_vruchenie_pasportov/48.jpeg",
         },
       ],
     },
@@ -826,19 +826,19 @@ export const newsItemsData = [
       alt: "Команда ЗДДТ на защите проекта",
       gallery: [
         {
-          src: "./img/News/proryv_ikt/1.jpg",
+          src: "../img/News/proryv_ikt/1.jpg",
         },
         {
-          src: "./img/News/proryv_ikt/2.jpg",
+          src: "../img/News/proryv_ikt/2.jpg",
         },
         {
-          src: "./img/News/proryv_ikt/3.jpg",
+          src: "../img/News/proryv_ikt/3.jpg",
         },
         {
-          src: "./img/News/proryv_ikt/4.jpg",
+          src: "../img/News/proryv_ikt/4.jpg",
         },
         {
-          src: "./img/News/proryv_ikt/5.jpg",
+          src: "../img/News/proryv_ikt/5.jpg",
         },
       ],
     },
@@ -856,46 +856,46 @@ export const newsItemsData = [
       alt: "Мэджики в деле",
       gallery: [
         {
-          src: "./img/News/tancevalnyj_god_zavershen/1.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/1.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/2.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/2.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/3.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/3.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/4.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/4.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/5.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/5.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/6.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/6.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/7.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/7.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/8.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/8.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/9.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/9.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/10.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/10.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/11.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/11.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/12.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/12.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/13.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/13.jpeg",
         },
         {
-          src: "./img/News/tancevalnyj_god_zavershen/14.jpeg",
+          src: "../img/News/tancevalnyj_god_zavershen/14.jpeg",
         },
       ],
     },
@@ -915,16 +915,16 @@ export const newsItemsData = [
       alt: "Награждение Ивановой А.С.",
       gallery: [
         {
-          src: "./img/News/klyuchevoe_sobytie/1.jpg",
+          src: "../img/News/klyuchevoe_sobytie/1.jpg",
         },
         {
-          src: "./img/News/klyuchevoe_sobytie/2.jpg",
+          src: "../img/News/klyuchevoe_sobytie/2.jpg",
         },
         {
-          src: "./img/News/klyuchevoe_sobytie/3.jpg",
+          src: "../img/News/klyuchevoe_sobytie/3.jpg",
         },
         {
-          src: "./img/News/klyuchevoe_sobytie/4.jpg",
+          src: "../img/News/klyuchevoe_sobytie/4.jpg",
         },
       ],
     },
@@ -942,37 +942,37 @@ export const newsItemsData = [
       alt: "Коллектив собирается",
       gallery: [
         {
-          src: "./img/News/doroga_solncu/1.jpg",
+          src: "../img/News/doroga_solncu/1.jpg",
           // width: 1152,
           // height: 568,
         },
         {
-          src: "./img/News/doroga_solncu/2.jpg",
+          src: "../img/News/doroga_solncu/2.jpg",
           // width: 1280,
           // height: 961,
         },
         {
-          src: "./img/News/doroga_solncu/3.jpg",
+          src: "../img/News/doroga_solncu/3.jpg",
           // width: 631,
           // height: 1280,
         },
         {
-          src: "./img/News/doroga_solncu/4.jpg",
+          src: "../img/News/doroga_solncu/4.jpg",
           // width: 1280,
           // height: 960,
         },
         {
-          src: "./img/News/doroga_solncu/5.jpg",
+          src: "../img/News/doroga_solncu/5.jpg",
           // width: 720,
           // height: 1280,
         },
         {
-          src: "./img/News/doroga_solncu/6.jpg",
+          src: "../img/News/doroga_solncu/6.jpg",
           // width: 931,
           // height: 1280,
         },
         {
-          src: "./img/News/doroga_solncu/7.jpeg",
+          src: "../img/News/doroga_solncu/7.jpeg",
           // width: 801,
           // height: 1280,
         },
@@ -994,42 +994,42 @@ export const newsItemsData = [
       alt: "Мастер-класс",
       gallery: [
         {
-          src: "./img/News/master-klassy_9maya/1.jpg",
+          src: "../img/News/master-klassy_9maya/1.jpg",
           // width: 972,
           // height: 2160,
         },
         {
-          src: "./img/News/master-klassy_9maya/2.jpg",
+          src: "../img/News/master-klassy_9maya/2.jpg",
           // width: 1547,
           // height: 2160,
         },
         {
-          src: "./img/News/master-klassy_9maya/3.jpg",
+          src: "../img/News/master-klassy_9maya/3.jpg",
           // width: 1488,
           // height: 2160,
         },
         {
-          src: "./img/News/master-klassy_9maya/4.jpg",
+          src: "../img/News/master-klassy_9maya/4.jpg",
           // width: 2516,
           // height: 1688,
         },
         {
-          src: "./img/News/master-klassy_9maya/5.jpg",
+          src: "../img/News/master-klassy_9maya/5.jpg",
           // width: 2560,
           // height: 1152,
         },
         {
-          src: "./img/News/master-klassy_9maya/6.jpg",
+          src: "../img/News/master-klassy_9maya/6.jpg",
           // width: 2560,
           // height: 1152,
         },
         {
-          src: "./img/News/master-klassy_9maya/7.jpg",
+          src: "../img/News/master-klassy_9maya/7.jpg",
           // width: 972,
           // height: 2160,
         },
         {
-          src: "./img/News/master-klassy_9maya/8.jpg",
+          src: "../img/News/master-klassy_9maya/8.jpg",
           // width: 1971,
           // height: 1426,
         },
@@ -1050,47 +1050,47 @@ export const newsItemsData = [
       alt: "Дебаты",
       gallery: [
         {
-          src: "./img/News/dajdzhest_poslednyaya_dekada_apr_24/1.jpg",
+          src: "../img/News/dajdzhest_poslednyaya_dekada_apr_24/1.jpg",
           // width: 4000,
           // height: 1800,
         },
         {
-          src: "./img/News/dajdzhest_poslednyaya_dekada_apr_24/2.jpg",
+          src: "../img/News/dajdzhest_poslednyaya_dekada_apr_24/2.jpg",
           // width: 3502,
           // height: 1800,
         },
         {
-          src: "./img/News/dajdzhest_poslednyaya_dekada_apr_24/3.jpg",
+          src: "../img/News/dajdzhest_poslednyaya_dekada_apr_24/3.jpg",
           // width: 4000,
           // height: 1800,
         },
         {
-          src: "./img/News/dajdzhest_poslednyaya_dekada_apr_24/4.jpg",
+          src: "../img/News/dajdzhest_poslednyaya_dekada_apr_24/4.jpg",
           // width: 4000,
           // height: 1800,
         },
         {
-          src: "./img/News/dajdzhest_poslednyaya_dekada_apr_24/5.jpg",
+          src: "../img/News/dajdzhest_poslednyaya_dekada_apr_24/5.jpg",
           // width: 2000,
           // height: 900,
         },
         {
-          src: "./img/News/dajdzhest_poslednyaya_dekada_apr_24/6.jpg",
+          src: "../img/News/dajdzhest_poslednyaya_dekada_apr_24/6.jpg",
           // width: 900,
           // height: 1117,
         },
         {
-          src: "./img/News/dajdzhest_poslednyaya_dekada_apr_24/7.jpg",
+          src: "../img/News/dajdzhest_poslednyaya_dekada_apr_24/7.jpg",
           // width: 900,
           // height: 2000,
         },
         {
-          src: "./img/News/dajdzhest_poslednyaya_dekada_apr_24/8.jpg",
+          src: "../img/News/dajdzhest_poslednyaya_dekada_apr_24/8.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/dajdzhest_poslednyaya_dekada_apr_24/9.jpg",
+          src: "../img/News/dajdzhest_poslednyaya_dekada_apr_24/9.jpg",
           // width: 2121,
           // height: 1414,
         },
@@ -1110,22 +1110,22 @@ export const newsItemsData = [
       alt: "Работы учащихся дизай-студии Впечатление",
       gallery: [
         {
-          src: "./img/News/yaponskaya_vesna_spb/1.jpg",
+          src: "../img/News/yaponskaya_vesna_spb/1.jpg",
           // width: 1080,
           // height: 603,
         },
         {
-          src: "./img/News/yaponskaya_vesna_spb/2.jpg",
+          src: "../img/News/yaponskaya_vesna_spb/2.jpg",
           // width: 1080,
           // height: 592,
         },
         {
-          src: "./img/News/yaponskaya_vesna_spb/3.jpg",
+          src: "../img/News/yaponskaya_vesna_spb/3.jpg",
           // width: 876,
           // height: 1280,
         },
         {
-          src: "./img/News/yaponskaya_vesna_spb/4.jpg",
+          src: "../img/News/yaponskaya_vesna_spb/4.jpg",
           // width: 933,
           // height: 1280,
         },
@@ -1144,42 +1144,42 @@ export const newsItemsData = [
       alt: "Построение",
       gallery: [
         {
-          src: "./img/News/pochetnyj_karaul_kurortnom_rajone/1.jpg",
+          src: "../img/News/pochetnyj_karaul_kurortnom_rajone/1.jpg",
           // width: 2309,
           // height: 1299,
         },
         {
-          src: "./img/News/pochetnyj_karaul_kurortnom_rajone/2.jpg",
+          src: "../img/News/pochetnyj_karaul_kurortnom_rajone/2.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/pochetnyj_karaul_kurortnom_rajone/3.jpg",
+          src: "../img/News/pochetnyj_karaul_kurortnom_rajone/3.jpg",
           // width: 2309,
           // height: 1299,
         },
         {
-          src: "./img/News/pochetnyj_karaul_kurortnom_rajone/4.jpg",
+          src: "../img/News/pochetnyj_karaul_kurortnom_rajone/4.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/pochetnyj_karaul_kurortnom_rajone/5.jpg",
+          src: "../img/News/pochetnyj_karaul_kurortnom_rajone/5.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/pochetnyj_karaul_kurortnom_rajone/6.jpg",
+          src: "../img/News/pochetnyj_karaul_kurortnom_rajone/6.jpg",
           // width: 2309,
           // height: 1299,
         },
         {
-          src: "./img/News/pochetnyj_karaul_kurortnom_rajone/7.jpg",
+          src: "../img/News/pochetnyj_karaul_kurortnom_rajone/7.jpg",
           // width: 2309,
           // height: 1299,
         },
         {
-          src: "./img/News/pochetnyj_karaul_kurortnom_rajone/8.jpg",
+          src: "../img/News/pochetnyj_karaul_kurortnom_rajone/8.jpg",
           // width: 2121,
           // height: 1414,
         },
@@ -1224,22 +1224,22 @@ export const newsItemsData = [
       alt: "Награждаемые дети",
       gallery: [
         {
-          src: "./img/News/detstvo_divnaya_strana/1.jpg",
+          src: "../img/News/detstvo_divnaya_strana/1.jpg",
           // width: 780,
           // height: 1040,
         },
         {
-          src: "./img/News/detstvo_divnaya_strana/2.jpg",
+          src: "../img/News/detstvo_divnaya_strana/2.jpg",
           // width: 780,
           // height: 1040,
         },
         {
-          src: "./img/News/detstvo_divnaya_strana/3.jpg",
+          src: "../img/News/detstvo_divnaya_strana/3.jpg",
           // width: 780,
           // height: 1040,
         },
         {
-          src: "./img/News/detstvo_divnaya_strana/4.jpg",
+          src: "../img/News/detstvo_divnaya_strana/4.jpg",
           // width: 1920,
           // height: 1080,
         },
@@ -1272,37 +1272,37 @@ export const newsItemsData = [
       alt: "Директор А.Е.Пантелеева вещает с трибуны",
       gallery: [
         {
-          src: "./img/News/deti_nastavniki/1.jpg",
+          src: "../img/News/deti_nastavniki/1.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/deti_nastavniki/2.jpg",
+          src: "../img/News/deti_nastavniki/2.jpg",
           // width: 1280,
           // height: 853,
         },
         {
-          src: "./img/News/deti_nastavniki/3.jpg",
+          src: "../img/News/deti_nastavniki/3.jpg",
           // width: 1280,
           // height: 720,
         },
         {
-          src: "./img/News/deti_nastavniki/4.jpg",
+          src: "../img/News/deti_nastavniki/4.jpg",
           // width: 1280,
           // height: 720,
         },
         {
-          src: "./img/News/deti_nastavniki/5.jpg",
+          src: "../img/News/deti_nastavniki/5.jpg",
           // width: 1280,
           // height: 853,
         },
         {
-          src: "./img/News/deti_nastavniki/6.jpg",
+          src: "../img/News/deti_nastavniki/6.jpg",
           // width: 2309,
           // height: 1299,
         },
         {
-          src: "./img/News/deti_nastavniki/7.jpg",
+          src: "../img/News/deti_nastavniki/7.jpg",
           // width: 2121,
           // height: 1414,
         },
@@ -1326,37 +1326,37 @@ export const newsItemsData = [
       alt: "Гольцова Н.Г. обращается к детям в зале",
       gallery: [
         {
-          src: "./img/News/vesennyaya_kampaniya/1.jpg",
+          src: "../img/News/vesennyaya_kampaniya/1.jpg",
           // width: 2560,
           // height: 1152,
         },
         {
-          src: "./img/News/vesennyaya_kampaniya/2.jpg",
+          src: "../img/News/vesennyaya_kampaniya/2.jpg",
           // width: 2560,
           // height: 1154,
         },
         {
-          src: "./img/News/vesennyaya_kampaniya/3.jpg",
+          src: "../img/News/vesennyaya_kampaniya/3.jpg",
           // width: 2560,
           // height: 1154,
         },
         {
-          src: "./img/News/vesennyaya_kampaniya/4.jpg",
+          src: "../img/News/vesennyaya_kampaniya/4.jpg",
           // width: 2560,
           // height: 1920,
         },
         {
-          src: "./img/News/vesennyaya_kampaniya/5.jpg",
+          src: "../img/News/vesennyaya_kampaniya/5.jpg",
           // width: 1408,
           // height: 889,
         },
         {
-          src: "./img/News/vesennyaya_kampaniya/6.jpg",
+          src: "../img/News/vesennyaya_kampaniya/6.jpg",
           // width: 2560,
           // height: 1154,
         },
         {
-          src: "./img/News/vesennyaya_kampaniya/7.jpg",
+          src: "../img/News/vesennyaya_kampaniya/7.jpg",
           // width: 2560,
           // height: 1154,
         },
@@ -1375,7 +1375,7 @@ export const newsItemsData = [
       alt: "Мершеева Е.А. работает с педагогами ЗДДТ",
       gallery: [
         {
-          src: "./img/News/shkola_ped_masterstva/1.jpg",
+          src: "../img/News/shkola_ped_masterstva/1.jpg",
           // width: 2000,
           // height: 900,
         },
@@ -1396,12 +1396,12 @@ export const newsItemsData = [
       alt: "Лютова О.В. показывает слайды",
       gallery: [
         {
-          src: "./img/News/proshchanie_azbukoj/1.jpg",
+          src: "../img/News/proshchanie_azbukoj/1.jpg",
           // width: 1280,
           // height: 960,
         },
         {
-          src: "./img/News/proshchanie_azbukoj/2.jpg",
+          src: "../img/News/proshchanie_azbukoj/2.jpg",
           // width: 1280,
           // height: 960,
         },
@@ -1421,77 +1421,77 @@ export const newsItemsData = [
       alt: "Коллектив Magic Dance с детьми и родителями",
       gallery: [
         {
-          src: "./img/News/vmeste_s_mamoj/1.jpg",
+          src: "../img/News/vmeste_s_mamoj/1.jpg",
           // width: 1280,
           // height: 721,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/2.jpg",
+          src: "../img/News/vmeste_s_mamoj/2.jpg",
           // width: 1280,
           // height: 721,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/3.jpg",
+          src: "../img/News/vmeste_s_mamoj/3.jpg",
           // width: 1280,
           // height: 721,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/4.jpg",
+          src: "../img/News/vmeste_s_mamoj/4.jpg",
           // width: 1280,
           // height: 721,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/5.jpg",
+          src: "../img/News/vmeste_s_mamoj/5.jpg",
           // width: 1200,
           // height: 1599,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/6.jpg",
+          src: "../img/News/vmeste_s_mamoj/6.jpg",
           // width: 1200,
           // height: 1599,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/7.jpg",
+          src: "../img/News/vmeste_s_mamoj/7.jpg",
           // width: 1200,
           // height: 1599,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/8.jpg",
+          src: "../img/News/vmeste_s_mamoj/8.jpg",
           // width: 1280,
           // height: 1047,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/9.jpg",
+          src: "../img/News/vmeste_s_mamoj/9.jpg",
           // width: 752,
           // height: 1280,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/10.jpg",
+          src: "../img/News/vmeste_s_mamoj/10.jpg",
           // width: 1045,
           // height: 1280,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/11.jpg",
+          src: "../img/News/vmeste_s_mamoj/11.jpg",
           // width: 1280,
           // height: 876,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/12.jpg",
+          src: "../img/News/vmeste_s_mamoj/12.jpg",
           // width: 1280,
           // height: 681,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/13.jpg",
+          src: "../img/News/vmeste_s_mamoj/13.jpg",
           // width: 960,
           // height: 1280,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/14.jpg",
+          src: "../img/News/vmeste_s_mamoj/14.jpg",
           // width: 960,
           // height: 1280,
         },
         {
-          src: "./img/News/vmeste_s_mamoj/15.jpg",
+          src: "../img/News/vmeste_s_mamoj/15.jpg",
           // width: 1600,
           // height: 1196,
         },
@@ -1515,22 +1515,22 @@ export const newsItemsData = [
       alt: "Участники семинара",
       gallery: [
         {
-          src: "./img/News/novye_pedagogicheskie_praktiki/1.jpg",
+          src: "../img/News/novye_pedagogicheskie_praktiki/1.jpg",
           // width: 1360,
           // height: 924,
         },
         {
-          src: "./img/News/novye_pedagogicheskie_praktiki/2.jpg",
+          src: "../img/News/novye_pedagogicheskie_praktiki/2.jpg",
           // width: 1620,
           // height: 2160,
         },
         {
-          src: "./img/News/novye_pedagogicheskie_praktiki/3.jpg",
+          src: "../img/News/novye_pedagogicheskie_praktiki/3.jpg",
           // width: 1620,
           // height: 2160,
         },
         {
-          src: "./img/News/novye_pedagogicheskie_praktiki/4.jpg",
+          src: "../img/News/novye_pedagogicheskie_praktiki/4.jpg",
           // width: 2560,
           // height: 2003,
         },
@@ -1551,47 +1551,47 @@ export const newsItemsData = [
       alt: "Призеры соревнований",
       gallery: [
         {
-          src: "./img/News/vserossijskie_sorevnovaniya_karate/1.jpg",
+          src: "../img/News/vserossijskie_sorevnovaniya_karate/1.jpg",
           // width: 960,
           // height: 1280,
         },
         {
-          src: "./img/News/vserossijskie_sorevnovaniya_karate/2.jpg",
+          src: "../img/News/vserossijskie_sorevnovaniya_karate/2.jpg",
           // width: 600,
           // height: 800,
         },
         {
-          src: "./img/News/vserossijskie_sorevnovaniya_karate/3.jpg",
+          src: "../img/News/vserossijskie_sorevnovaniya_karate/3.jpg",
           // width: 2560,
           // height: 1920,
         },
         {
-          src: "./img/News/vserossijskie_sorevnovaniya_karate/4.jpg",
+          src: "../img/News/vserossijskie_sorevnovaniya_karate/4.jpg",
           // width: 1024,
           // height: 768,
         },
         {
-          src: "./img/News/vserossijskie_sorevnovaniya_karate/5.jpg",
+          src: "../img/News/vserossijskie_sorevnovaniya_karate/5.jpg",
           // width: 960,
           // height: 1280,
         },
         {
-          src: "./img/News/vserossijskie_sorevnovaniya_karate/6.jpg",
+          src: "../img/News/vserossijskie_sorevnovaniya_karate/6.jpg",
           // width: 1008,
           // height: 1443,
         },
         {
-          src: "./img/News/vserossijskie_sorevnovaniya_karate/7.jpg",
+          src: "../img/News/vserossijskie_sorevnovaniya_karate/7.jpg",
           // width: 1620,
           // height: 2160,
         },
         {
-          src: "./img/News/vserossijskie_sorevnovaniya_karate/8.jpg",
+          src: "../img/News/vserossijskie_sorevnovaniya_karate/8.jpg",
           // width: 2560,
           // height: 1920,
         },
         {
-          src: "./img/News/vserossijskie_sorevnovaniya_karate/9.jpg",
+          src: "../img/News/vserossijskie_sorevnovaniya_karate/9.jpg",
           // width: 1620,
           // height: 2160,
         },
@@ -1612,52 +1612,52 @@ export const newsItemsData = [
       alt: "Веселые старты",
       gallery: [
         {
-          src: "./img/News/vmeste_s_papoj/1.jpg",
+          src: "../img/News/vmeste_s_papoj/1.jpg",
           // width: 2309,
           // height: 1299,
         },
         {
-          src: "./img/News/vmeste_s_papoj/2.jpg",
+          src: "../img/News/vmeste_s_papoj/2.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/vmeste_s_papoj/3.jpg",
+          src: "../img/News/vmeste_s_papoj/3.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/vmeste_s_papoj/4.jpg",
+          src: "../img/News/vmeste_s_papoj/4.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/vmeste_s_papoj/5.jpg",
+          src: "../img/News/vmeste_s_papoj/5.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/vmeste_s_papoj/6.jpg",
+          src: "../img/News/vmeste_s_papoj/6.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/vmeste_s_papoj/7.jpg",
+          src: "../img/News/vmeste_s_papoj/7.jpg",
           // width: 2309,
           // height: 1299,
         },
         {
-          src: "./img/News/vmeste_s_papoj/8.jpg",
+          src: "../img/News/vmeste_s_papoj/8.jpg",
           // width: 2309,
           // height: 1299,
         },
         {
-          src: "./img/News/vmeste_s_papoj/9.jpg",
+          src: "../img/News/vmeste_s_papoj/9.jpg",
           // width: 2309,
           // height: 1299,
         },
         {
-          src: "./img/News/vmeste_s_papoj/10.jpg",
+          src: "../img/News/vmeste_s_papoj/10.jpg",
           // width: 2309,
           // height: 1299,
         },
@@ -1677,27 +1677,27 @@ export const newsItemsData = [
       alt: "Дети проводят опыты",
       gallery: [
         {
-          src: "./img/News/den_eksperimenta/1.jpg",
+          src: "../img/News/den_eksperimenta/1.jpg",
           // width: 2560,
           // height: 1920,
         },
         {
-          src: "./img/News/den_eksperimenta/2.jpg",
+          src: "../img/News/den_eksperimenta/2.jpg",
           // width: 1620,
           // height: 2160,
         },
         {
-          src: "./img/News/den_eksperimenta/3.jpg",
+          src: "../img/News/den_eksperimenta/3.jpg",
           // width: 2560,
           // height: 1920,
         },
         {
-          src: "./img/News/den_eksperimenta/4.jpg",
+          src: "../img/News/den_eksperimenta/4.jpg",
           // width: 2560,
           // height: 1920,
         },
         {
-          src: "./img/News/den_eksperimenta/5.jpg",
+          src: "../img/News/den_eksperimenta/5.jpg",
           // width: 1620,
           // height: 2160,
         },
@@ -1717,22 +1717,22 @@ export const newsItemsData = [
       alt: "Родина Мать",
       gallery: [
         {
-          src: "./img/News/stalingrad_ni_shagu_nazad/1.jpg",
+          src: "../img/News/stalingrad_ni_shagu_nazad/1.jpg",
           // width: 1200,
           // height: 800,
         },
         {
-          src: "./img/News/stalingrad_ni_shagu_nazad/2.jpg",
+          src: "../img/News/stalingrad_ni_shagu_nazad/2.jpg",
           // width: 2560,
           // height: 1508,
         },
         {
-          src: "./img/News/stalingrad_ni_shagu_nazad/3.jpg",
+          src: "../img/News/stalingrad_ni_shagu_nazad/3.jpg",
           // width: 2560,
           // height: 1372,
         },
         {
-          src: "./img/News/stalingrad_ni_shagu_nazad/4.jpg",
+          src: "../img/News/stalingrad_ni_shagu_nazad/4.jpg",
           // width: 2560,
           // height: 1326,
         },
@@ -1753,32 +1753,32 @@ export const newsItemsData = [
       alt: "Ведущие читают блокадный дневник",
       gallery: [
         {
-          src: "./img/News/blokadnye_stranicy/1.jpg",
+          src: "../img/News/blokadnye_stranicy/1.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/blokadnye_stranicy/2.jpg",
+          src: "../img/News/blokadnye_stranicy/2.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/blokadnye_stranicy/3.jpg",
+          src: "../img/News/blokadnye_stranicy/3.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/blokadnye_stranicy/4.jpg",
+          src: "../img/News/blokadnye_stranicy/4.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/blokadnye_stranicy/5.jpg",
+          src: "../img/News/blokadnye_stranicy/5.jpg",
           // width: 2121,
           // height: 1414,
         },
         {
-          src: "./img/News/blokadnye_stranicy/6.jpg",
+          src: "../img/News/blokadnye_stranicy/6.jpg",
           // width: 2121,
           // height: 1414,
         },
@@ -1799,12 +1799,12 @@ export const newsItemsData = [
       alt: "Тренерский состав и участники соревнований. Фото в цвете",
       gallery: [
         {
-          src: "./img/News/pervenstvo_spb_po_vsestilevomu_karate/1.jpg",
+          src: "../img/News/pervenstvo_spb_po_vsestilevomu_karate/1.jpg",
           // width: 1054,
           // height: 1222,
         },
         {
-          src: "./img/News/pervenstvo_spb_po_vsestilevomu_karate/2.jpg",
+          src: "../img/News/pervenstvo_spb_po_vsestilevomu_karate/2.jpg",
           // width: 1399,
           // height: 2160,
         },
