@@ -61,9 +61,9 @@ const Mentoring = lazy(() => import("./components/Activities/Mentoring"));
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App />}>
+    <Route path="/zdd-kiosk" element={<App />}>
       <Route path="*" element={<PageNotFound />} />
-      <Route path="/" element={<Main />} />
+      <Route path="/zdd-kiosk" element={<Main />} />
       <Route path="about" element={<About />} />
       <Route
         path="about/basic-information"
