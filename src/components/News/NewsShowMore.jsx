@@ -30,7 +30,7 @@ export default function NewsShowMore() {
         className={`${classes.newsShowMoreContainer} ${classes.newsContainer}`}
       >
         <div className={mainClasses.navigation}>
-          <Link to="/zddt-kiosk" className={mainClasses.navigationLink}>
+          <Link to="/zddt-kiosk/" className={mainClasses.navigationLink}>
             Главная
           </Link>
           <FontAwesomeIcon

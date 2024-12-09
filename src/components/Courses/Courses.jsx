@@ -1,11 +1,9 @@
 import classes from "./Courses.module.css";
 import mainClasses from "../App.module.css";
-import headerClasses from "../Header/Header.module.css";
 import { coursesCardsData } from "./coursesCardsData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleRight,
-  faCalendarDays,
   faAngleDown,
   faXmark,
   faSliders,
@@ -28,40 +26,6 @@ export default function Courses() {
     check: checkFilter,
   };
   const [showingCourseCards, setShowingCourseCards] = useState(0);
-  useEffect(() => {
-    function handleActive() {
-      if (
-        scheduleElement.getBoundingClientRect().top <=
-        headerElement.getBoundingClientRect().bottom
-      ) {
-        setActive(true);
-        scheduleElement.style.top =
-          headerElement.getBoundingClientRect().bottom + "px";
-      }
-      if (document.documentElement.clientWidth <= 425) {
-        if (document.documentElement.scrollTop <= 200) {
-          setActive(false);
-        }
-      } else if (document.documentElement.clientWidth > 425) {
-        if (
-          document.documentElement.scrollTop <=
-          headerElement.getBoundingClientRect().height
-        ) {
-          setActive(false);
-        }
-      }
-    }
-    const scheduleElement = document.querySelector(
-      `.${classes.coursesSchedule}`
-    );
-    const headerElement = document.querySelector(`.${headerClasses.header}`);
-
-    window.addEventListener("scroll", handleActive);
-    return () => {
-      window.removeEventListener("scroll", handleActive);
-    };
-  }, []);
-
   useEffect(() => {
     function activeFilters(e) {
       if (
@@ -154,7 +118,7 @@ export default function Courses() {
     <section className={classes.courses}>
       <div className={classes.coursesContainer}>
         <div className={mainClasses.navigation}>
-          <Link to="/zddt-kiosk" className={mainClasses.navigationLink}>
+          <Link to="/zddt-kiosk/" className={mainClasses.navigationLink}>
             Главная
           </Link>
           <FontAwesomeIcon

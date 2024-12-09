@@ -8,7 +8,6 @@ import { coursesCardsData } from "./coursesCardsData";
 import handleActive from "./handleActive";
 import handleResize from "./handleResize";
 import { useEffect } from "react";
-import "../Footer/swiper-bundle.min.css";
 import LightGallery from "lightgallery/react";
 import "lightgallery/css/lightgallery.css";
 
@@ -29,7 +28,7 @@ export default function CoursesShowMore() {
     <div className={classes.coursesShowMore}>
       <div className={classes.coursesShowMoreContainer}>
         <div className={mainClasses.navigation}>
-          <Link to="/zddt-kiosk" className={mainClasses.navigationLink}>
+          <Link to="/zddt-kiosk/" className={mainClasses.navigationLink}>
             Главная
           </Link>
           <FontAwesomeIcon
