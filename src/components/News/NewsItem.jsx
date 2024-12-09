@@ -13,7 +13,10 @@ export default function NewsItem({ image, title, text, date }) {
   return (
     <>
       <div className={classes.newsCard}>
-        <Link to={`/news/${title}`} className={classes.newsCardImage}>
+        <Link
+          to={`/zddt-kiosk/news/${title}`}
+          className={classes.newsCardImage}
+        >
           <img
             loading="lazy"
             className={classes.newsCardImg}
@@ -24,7 +27,10 @@ export default function NewsItem({ image, title, text, date }) {
         <div className={classes.newsCardBody}>
           <h3 className={classes.newsCardTitle}>{title}</h3>
           <div ref={newsCardTextRef} className={classes.newsCardText}></div>
-          <Link to={`/news/${title}`} className={classes.newsCardReadMore}>
+          <Link
+            to={`/zddt-kiosk/news/${title}`}
+            className={classes.newsCardReadMore}
+          >
             ПОКАЗАТЬ БОЛЬШЕ
           </Link>
           <hr style={{ maxWidth: "100%", margin: "0" }} />

@@ -24,7 +24,7 @@ export default function News() {
     <div className={classes.news}>
       <div className={classes.newsContainer}>
         <div className={mainClasses.navigation}>
-          <Link to="/" className={mainClasses.navigationLink}>
+          <Link to="/zddt-kiosk" className={mainClasses.navigationLink}>
             Главная
           </Link>
           <FontAwesomeIcon
@@ -32,7 +32,7 @@ export default function News() {
             icon={faAngleRight}
           />
           <Link
-            to="/news"
+            to="/zddt-kiosk/news"
             className={`${mainClasses.navigationLink} ${mainClasses.current}`}
           >
             Новости

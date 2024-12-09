@@ -7,57 +7,14 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-const App = lazy(() => import("./components/App"));
-const PageNotFound = lazy(() => import("./components/PageNotFound"));
-const Main = lazy(() => import("./components/Main/Main"));
-const About = lazy(() => import("./components/About/About"));
-const AboutBasicInformation = lazy(() =>
-  import("./components/About/AboutBasicInformation")
-);
-const AboutDocs = lazy(() => import("./components/About/AboutDocs"));
-const AboutEducation = lazy(() => import("./components/About/AboutEducation"));
-const AboutPaidServices = lazy(() =>
-  import("./components/About/AboutPaidServices")
-);
-const AboutFinancialActivities = lazy(() =>
-  import("./components/About/AboutFinancialActivities")
-);
-const AboutVacant = lazy(() => import("./components/About/AboutVacant"));
-const AboutAntiCorruption = lazy(() =>
-  import("./components/About/AboutAntiCorruption")
-);
-const AboutQualityAssessment = lazy(() =>
-  import("./components/About/AboutQualityAssessment")
-);
-const AboutStructure = lazy(() => import("./components/About/AboutStructure"));
-const AboutEmployees = lazy(() => import("./components/About/AboutEmployees"));
-const AboutEmployeesShowMore = lazy(() =>
-  import("./components/About/AboutEmployeesShowMore")
-);
-const AboutMTO = lazy(() => import("./components/About/AboutMTO"));
-const AboutAccessibleEnvironment = lazy(() =>
-  import("./components/About/AboutAccessibleEnvironment")
-);
-const News = lazy(() => import("./components/News/News"));
-const NewsShowMore = lazy(() => import("./components/News/NewsShowMore"));
-const Contacts = lazy(() => import("./components/Contacts/Contacts"));
-const Courses = lazy(() => import("./components/Courses/Courses"));
-const CoursesShowMore = lazy(() =>
-  import("./components/Courses/CoursesShowMore")
-);
-// const SummerCourses = lazy(() => import("./components/Courses/SummerCourses"));
-// const SummerCoursesShowMore = lazy(() =>
-//   import("./components/Courses/SummerCoursesShowMore")
-// );
-const Activities = lazy(() => import("./components/Activities/Activities"));
-const MethodicalWork = lazy(() =>
-  import("./components/Activities/MethodicalWork")
-);
-const MethodicalWorkShowMore = lazy(() =>
-  import("./components/Activities/MethodicalWorkShowMore")
-);
-const OurEvents = lazy(() => import("./components/Activities/OurEvents"));
-const Mentoring = lazy(() => import("./components/Activities/Mentoring"));
+import App from "./components/App";
+import PageNotFound from "./components/PageNotFound";
+import Main from "./components/Main/Main";
+import News from "./components/News/News";
+import NewsShowMore from "./components/News/NewsShowMore";
+import Contacts from "./components/Contacts/Contacts";
+import Courses from "./components/Courses/Courses";
+import CoursesShowMore from "./components/Courses/CoursesShowMore";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

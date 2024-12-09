@@ -62,7 +62,7 @@ export default function Header() {
       <div className={classes.headerContainer}>
         <div className={classes.headerLogo}>
           <div>
-            <Link onClick={() => showMenu && setShowMenu()} to="/">
+            <Link onClick={() => showMenu && setShowMenu()} to="/zddt-kiosk">
               {adaptiveLogo ? (
                 <div className={classes.adaptiveLogoContainer}>
                   <img
@@ -99,7 +99,7 @@ export default function Header() {
                 };
               }}
               onClick={() => showMenu && setShowMenu()}
-              to="/news"
+              to="/zddt-kiosk/news"
             >
               Новости
             </NavLink>
@@ -114,7 +114,7 @@ export default function Header() {
                 };
               }}
               onClick={() => showMenu && setShowMenu()}
-              to="/courses"
+              to="/zddt-kiosk/courses"
             >
               Образовательные программы
             </NavLink>
@@ -129,7 +129,7 @@ export default function Header() {
                 };
               }}
               onClick={() => showMenu && setShowMenu()}
-              to="/contacts"
+              to="/zddt-kiosk/contacts"
             >
               Контакты
             </NavLink>

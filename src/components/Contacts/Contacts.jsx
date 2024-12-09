@@ -11,7 +11,7 @@ export default function Contacts() {
     <section className={classes.contacts}>
       <div className={classes.contactsContainer}>
         <div className={mainClasses.navigation}>
-          <Link to="/" className={mainClasses.navigationLink}>
+          <Link to="/zddt-kiosk" className={mainClasses.navigationLink}>
             Главная
           </Link>
           <FontAwesomeIcon
@@ -19,7 +19,7 @@ export default function Contacts() {
             icon={faAngleRight}
           />
           <Link
-            to="/contacts"
+            to="/zddt-kiosk/contacts"
             className={`${mainClasses.navigationLink} ${mainClasses.current}`}
           >
             Контакты
