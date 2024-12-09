@@ -1,0 +1,84 @@
+.mainRecentNewsContainer {
+  max-width: 1140px;
+  margin: 0px auto;
+  padding: 20px 10px;
+}
+.mainActivitiesContainer {
+  max-width: 1800px;
+  margin: 0px auto;
+  padding: 20px 10px;
+}
+.mainRecentNewsTitle,
+.mainActivitiesTitle {
+  font-size: var(--titleFontSize);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.mainActivities {
+  background-color: var(--secondaryBGColor);
+}
+
+/* SUMMER */
+.mainHero {
+  background-color: var(--secondaryBGColor);
+}
+.mainHeroContainer {
+  max-width: 1140px;
+  margin: 0px auto;
+  padding: 20px 10px;
+}
+.mainHeroTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.mainHeroText {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  padding: 20px;
+  background-color: #ffffec;
+  border-radius: 10px;
+  color: #524c42;
+}
+@media (max-width: 425px) {
+  .mainHeroText {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+.heroButtonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 425px) {
+  .heroButtonsContainer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .heroButton {
+    text-align: center;
+  }
+}
+.heroButton {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  background-color: #fdde55;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #524c42;
+}
+.heroButton:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}

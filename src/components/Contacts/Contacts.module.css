@@ -1,0 +1,47 @@
+.contactsContainer {
+  padding: 20px 10px;
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.contactsTitle {
+  font-size: var(--titleFontSize);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contactsAdress > h3,
+.contactsPhones > h3,
+.contactsEmail > h3,
+.contactsSocialMedia > h3 {
+  font-size: var(--headerLinksFontSizeLaptop);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+@media (max-width: 425px) {
+  .contactsAdress > h3,
+  .contactsPhones > h3,
+  .contactsEmail > h3,
+  .contactsSocialMedia > h3 {
+    font-size: var(--headerLinksFontSize);
+  }
+}
+.contactsAdress > p,
+.contactsPhones > p,
+.contactsEmail > p {
+  word-break: break-word;
+  font-size: var(--aboutItemFontSize);
+  margin-bottom: 10px;
+}
+.contactsAdressMap {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .contactsAdressMap {
+    height: 300px;
+  }
+}
+.contactsSocialMediaIcon {
+  font-size: var(--newsTextShowMore);
+  color: var(--VKIconColor);
+}

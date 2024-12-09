@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+/* @import url(https://fonts.googleapis.com/css?family=Pacifico:regular); */
+@import url(https://fonts.googleapis.com/css?family=Neucha:regular);
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: var(--fontF);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"],
+input[type="number"]:hover,
+input[type="number"]:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+body {
+  background-color: var(--mainBGColor);
+  color: var(--mainColor);
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+:root {
+  /* FONT-SIZES */
+  /* MAIN SETTINGS */
+  --fontF: "Roboto";
+  --titleFontSize: 30px;
+  --navigationFontSize: 14px;
+  /* HEADER SETTINGS */
+  --headerLinksFontSize: 18px;
+  --headerLinksFontSizeLaptop: 24px;
+  --headerLinksFontSizeMobile: 20px;
+  --headerLinksGap: 50px;
+  /* FOOTER SETTINGS */
+  --bannersDescription: 12px;
+  --footerLinksFontSize: 12px;
+  /* NEWS SETTINGS */
+  --newsTitle: 22px;
+  --newsTitleShowMore: 30px;
+  --newsText: 16px;
+  --newsTextShowMore: 20px;
+  --readMore: 15px;
+  --newsDate: 16px;
+  /* ABOUT SETTINGS */
+  --aboutCardsTemplate: 3;
+  --aboutItemFontSize: 16px;
+  /*  */
+
+  /* COLORS */
+  --mainBGColor: #f7f7f7;
+  --secondaryBGColor: #fff;
+  --cardBGColor: #fff;
+  --headerBGColor: rgb(219, 240, 253);
+  --headerBGColorAccent: rgb(175, 224, 255);
+  --footerBGColor: rgb(80, 80, 80);
+  --footerBannersBGColor: #fff;
+  --mainColor: rgba(0, 0, 0, 0.8);
+  --footerLinksColor: rgba(255, 255, 255, 0.8);
+  --extraYellow: #fdde55;
+  --invertedColor0: invert(0);
+  --invertedColor100: invert(100%);
+  --tablesBGColor: #f7f7f7;
+  --linksColor: #1e90ff;
+  --headerLinksActiveColor: #ff407d;
+  --coursesCardsButtonColor: rgb(219, 240, 253);
+  --coursesCardsButtonActiveColor: rgb(175, 224, 255);
+  --VKIconColor: #0000ff;
+}
