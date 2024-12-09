@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --mode production && cp ./dist/index.html ./dist/404.html",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "homepage": "https://IvanMouses.github.io/zddt-kiosk/",
