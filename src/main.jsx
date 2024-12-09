@@ -64,35 +64,6 @@ const router = createBrowserRouter(
     <Route path="/zddt-kiosk" element={<App />}>
       <Route path="*" element={<PageNotFound />} />
       <Route path="/zddt-kiosk" element={<Main />} />
-      <Route path="about" element={<About />} />
-      <Route
-        path="about/basic-information"
-        element={<AboutBasicInformation />}
-      />
-      <Route path="about/docs" element={<AboutDocs />} />
-      <Route path="about/education" element={<AboutEducation />} />
-      <Route path="about/paid-services" element={<AboutPaidServices />} />
-      <Route
-        path="about/financial-activities"
-        element={<AboutFinancialActivities />}
-      />
-      <Route path="about/vacant" element={<AboutVacant />} />
-      <Route path="about/anti-corruption" element={<AboutAntiCorruption />} />
-      <Route
-        path="about/quality-assessment"
-        element={<AboutQualityAssessment />}
-      />
-      <Route path="about/structure" element={<AboutStructure />} />
-      <Route path="about/employees" element={<AboutEmployees />} />
-      <Route path="about/mto" element={<AboutMTO />} />
-      <Route
-        path="about/accessible-environment"
-        element={<AboutAccessibleEnvironment />}
-      />
-      <Route
-        path="about/employees/:employeeName"
-        element={<AboutEmployeesShowMore />}
-      />
       <Route path="/zddt-kiosk/news" element={<News />} />
       <Route path="/zddt-kiosk/news/:newsTitle" element={<NewsShowMore />} />
       <Route path="/zddt-kiosk/contacts" element={<Contacts />} />
@@ -101,19 +72,6 @@ const router = createBrowserRouter(
         path="/zddt-kiosk/courses/:courseTitle"
         element={<CoursesShowMore />}
       />
-      {/* <Route path="summer-courses" element={<SummerCourses />} />
-      <Route
-        path="summer-courses/:coursTitle"
-        element={<SummerCoursesShowMore />}
-      /> */}
-      <Route path="activities" element={<Activities />} />
-      <Route path="activities/methodical-work" element={<MethodicalWork />} />
-      <Route
-        path="activities/methodical-work/:employeeName"
-        element={<MethodicalWorkShowMore />}
-      />
-      <Route path="activities/events" element={<OurEvents />} />
-      <Route path="activities/mentoring" element={<Mentoring />} />
     </Route>
   )
 );

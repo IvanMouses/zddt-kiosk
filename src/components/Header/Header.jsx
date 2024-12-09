@@ -75,7 +75,7 @@ export default function Header() {
               ) : (
                 <img
                   className={classes.headerLogoImage}
-                  src="/img/Header/logo.png"
+                  src="./img/Header/logo.png"
                   alt="Логотип ЗДДТ"
                 />
               )}
