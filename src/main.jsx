@@ -93,11 +93,14 @@ const router = createBrowserRouter(
         path="about/employees/:employeeName"
         element={<AboutEmployeesShowMore />}
       />
-      <Route path="news" element={<News />} />
-      <Route path="news/:newsTitle" element={<NewsShowMore />} />
-      <Route path="contacts" element={<Contacts />} />
-      <Route path="courses" element={<Courses />} />
-      <Route path="courses/:courseTitle" element={<CoursesShowMore />} />
+      <Route path="/zddt-kiosk/news" element={<News />} />
+      <Route path="/zddt-kiosk/news/:newsTitle" element={<NewsShowMore />} />
+      <Route path="/zddt-kiosk/contacts" element={<Contacts />} />
+      <Route path="/zddt-kiosk/courses" element={<Courses />} />
+      <Route
+        path="/zddt-kiosk/courses/:courseTitle"
+        element={<CoursesShowMore />}
+      />
       {/* <Route path="summer-courses" element={<SummerCourses />} />
       <Route
         path="summer-courses/:coursTitle"

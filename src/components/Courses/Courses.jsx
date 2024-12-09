@@ -333,7 +333,7 @@ export default function Courses() {
           <div className={classes.coursesCardsMissingPage}>
             <img
               className={classes.coursesCardsMissingPageImg}
-              src="/img/missing-page-cat.png"
+              src="./img/missing-page-cat.png"
             ></img>
             По вашему запросу ничего не найдено...
           </div>

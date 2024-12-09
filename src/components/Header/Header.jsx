@@ -67,7 +67,7 @@ export default function Header() {
                 <div className={classes.adaptiveLogoContainer}>
                   <img
                     className={classes.headerLogoImageAdaptive}
-                    src="/img/Header/logo.png"
+                    src="./img/Header/logo.png"
                     alt="Логотип ЗДДТ"
                   />
                   <span className={classes.headerLogoText}>ЗДДТ</span>
