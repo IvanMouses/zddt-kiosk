@@ -1,6 +1,5 @@
 {
   "name": "zddt-kiosk",
-  "homepage": "https://IvanMouses.github.io/zddt-kiosk",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +8,7 @@
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "homepage": "https://IvanMouses.github.io/zddt-kiosk",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
