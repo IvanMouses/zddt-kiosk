@@ -40,39 +40,16 @@ export default function News() {
         </div>
         <div className={classes.newsHeader}>
           <h2 className={classes.newsTitle}>Новости</h2>
-          <input
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                e.target.blur();
-              }
-            }}
-            placeholder="Поиск по новостям"
-            type="text"
-            className={classes.newsSearchInput}
-            name="newsSearchInput"
-          />
         </div>
-        {newsItemsData
-          .filter(
-            (newsItem) =>
-              newsItem.text
-                .join(" ")
-                .toLowerCase()
-                .includes(inputValue.toLowerCase()) ||
-              newsItem.title.toLowerCase().includes(inputValue.toLowerCase()) ||
-              newsItem.date.toLowerCase().includes(inputValue.toLowerCase())
-          )
-          .map((card, index) => (
-            <NewsItem
-              key={index}
-              image={card.image}
-              title={card.title}
-              text={card.text}
-              date={card.date}
-            />
-          )).length === 0 && (
+        {newsItemsData.map((card, index) => (
+          <NewsItem
+            key={index}
+            image={card.image}
+            title={card.title}
+            text={card.text}
+            date={card.date}
+          />
+        )).length === 0 && (
           <div className={classes.newsMissingItem}>
             <img
               className={classes.newsMissingItemImg}

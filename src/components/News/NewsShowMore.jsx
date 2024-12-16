@@ -71,7 +71,10 @@ export default function NewsShowMore() {
               ref={newsCardTextRef}
               className={`${classes.newsCardText} ${classes.showMore}`}
             ></div>
-            <LightGallery elementClassNames={classes.newsGallery}>
+            <LightGallery
+              download={false}
+              elementClassNames={classes.newsGallery}
+            >
               {newsItemsData[
                 newsItemsData.indexOf(
                   newsItemsData.find((data) => data.title == params.newsTitle)

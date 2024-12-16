@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
 import classes from "./Header.module.css";
 import { Link, NavLink } from "react-router-dom";
-import Inclusive from "../Inclusive/Inclusive";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   const [inclusiveMode, setInclusiveMode] = useState(false);
@@ -47,18 +44,6 @@ export default function Header() {
         showMenu ? `${classes.header} ${classes.active}` : `${classes.header}`
       }
     >
-      {!inclusiveMode && (
-        <FontAwesomeIcon
-          className={classes.headerInclusiveModeIcon}
-          icon={faEye}
-          title="Специальные возможности"
-          onClick={() => setInclusiveMode(true)}
-        />
-      )}
-      <Inclusive
-        inclusiveMode={inclusiveMode}
-        setInclusiveMode={setInclusiveMode}
-      />
       <div className={classes.headerContainer}>
         <div className={classes.headerLogo}>
           <div>

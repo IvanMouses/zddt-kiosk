@@ -289,34 +289,6 @@ export default function CoursesShowMore() {
             </div>
           ))}
         </div>
-        {coursesCardsData[
-          coursesCardsData.indexOf(
-            coursesCardsData.find((data) => data.title == params.courseTitle)
-          )
-        ].achievements && (
-          <div className={classes.coursesShowMoreAchievements}>
-            <h2 className={classes.coursesShowMoreAchievementsTitle}>
-              Достижения
-            </h2>
-            <LightGallery elementClassNames={classes.coursesGallery}>
-              {coursesCardsData[
-                coursesCardsData.indexOf(
-                  coursesCardsData.find(
-                    (data) => data.title == params.courseTitle
-                  )
-                )
-              ].achievements.map((image, index) => (
-                <a
-                  className={classes.coursesGalleryImageContainer}
-                  key={index}
-                  href={image.src}
-                >
-                  <img loading="lazy" src={image.src} alt="" />
-                </a>
-              ))}
-            </LightGallery>
-          </div>
-        )}
       </div>
     </div>
   );
