@@ -163,13 +163,12 @@ export const coursesCardsData = [
       src: "img/Courses/5.jpg",
     },
     title: "Творческая студия «Цвет»",
-    vacantPlaces: true,
+    vacantPlaces: false,
     extraText: [5, 6, 7, 8],
     extraInfo: [
       {
-        text: "Частично укомплектовано",
-        description:
-          "В некоторых группах есть места - подробности в карточке программы",
+        text: "Укомплектовано",
+        description: "Мест нет - возможна запись в резерв",
       },
     ],
     category: "Художественная",
@@ -177,7 +176,7 @@ export const coursesCardsData = [
       {
         programmName: "Творческая студия «Цвет»",
         teacher: {
-          teacherPic: ["../img/About/18.png"],
+          teacherPic: ["/img/About/18.png"],
           teacherName: ["Мершеева Евгения Александровна"],
         },
         category: "художественная",
@@ -189,6 +188,8 @@ export const coursesCardsData = [
         groups: [
           {
             id: 0,
+            vacantPlaces:
+              "Группа укомплектована (мест нет, возможна запись в резерв)",
             groupName: "Группа № 1",
             year: "1-й год обучения",
             age: "5-6 лет",
@@ -723,50 +724,6 @@ export const coursesCardsData = [
       { src: "/img/Courses/Achievements/15-8.jpeg" },
     ],
   },
-  // {
-  //   image: {
-  //     src: "img/Courses/32.jpg",
-  //   },
-  //   title: "Студия текстиля «Волшебные лоскутки»",
-  //   vacantPlaces: true,
-  //   extraText: [6, 7],
-  //   category: "Художественная",
-  //   programms: [
-  //     {
-  //       programmName: "Студия текстиля «Волшебные лоскутки»",
-  //       teacher: {
-  //         teacherPic: ["../img/About/women-avatar.png"],
-  //         teacherName: ["Дубровская Наталия Вадимовна"],
-  //       },
-  //       category: "художественная",
-  //       duration: "1 год",
-  //       price: "на бюджетной основе (бесплатно)",
-  //       description: [
-  //         "Лоскутки - небольшие кусочки ткани, которые остались после раскроя и могут быть использованы для создания необычных изделий для декора.",
-  //         "В программе: индивидуальные работы детей /без использования иголок, ниток/, выполненных в технике «лоскутная аппликация» /объемная или плоская.",
-  //         "Результат: в процессе творческих занятий дети научатся создавать – лоскутные панно, декоративные украшения, подарки к праздникам, игрушки.",
-  //       ],
-  //       groups: [
-  //         {
-  //           id: 0,
-  //           groupName: "Группа № 1",
-  //           year: "1-й год обучения",
-  //           age: "6-7 лет",
-  //           signInButtonAllowed: false,
-  //           schedule: {
-  //             monday: "",
-  //             tuesday: "",
-  //             wednesday: "18:00 – 19:30",
-  //             thursday: "",
-  //             friday: "18:00 – 19:30",
-  //             saturday: "",
-  //           },
-  //         },
-  //       ],
-  //       signInButton: "https://dopobr.petersburgedu.ru/programs/92620/groups/",
-  //     },
-  //   ],
-  // },
   {
     image: {
       src: "img/Courses/16.jpg",
