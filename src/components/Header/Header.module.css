@@ -166,7 +166,12 @@
 .headerInclusiveModeIcon:hover {
   color: #ff407d;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1260px) {
+  .headerInclusiveModeIcon {
+    right: 50%;
+  }
+}
+@media (max-width: 1070px) {
   .headerInclusiveModeIcon {
     right: 60px;
   }
