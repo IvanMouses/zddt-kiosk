@@ -1,6 +1,7 @@
 import { useState, Suspense } from "react";
 import classes from "./App.module.css";
 import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
 import { Outlet } from "react-router-dom";
 import ModalWindow from "./ModalWindow";
 import { ScrollRestoration } from "react-router-dom";
@@ -25,6 +26,7 @@ export default function App() {
           <Outlet context={[setOpenModal, setModalWindowContent]} />
         </Suspense>
       </div>
+      <Footer />
       <ScrollRestoration />
     </>
   );
