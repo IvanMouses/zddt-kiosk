@@ -479,7 +479,7 @@ export const coursesCardsData = [
               tuesday: "",
               wednesday: "",
               thursday: "",
-              friday: "15:30 – 17:10",
+              friday: "15:00 – 16:40",
               saturday: "",
             },
           },
