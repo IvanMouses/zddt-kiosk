@@ -1479,6 +1479,46 @@ export const coursesCardsData = [
     ],
     achievements: [{ src: "/img/Courses/Achievements/8-1.jpg" }],
   },
+  {
+    image: {
+      src: "img/Courses/40.jpg",
+    },
+    title: "Технология",
+    vacantPlaces: true,
+    extraText: [10, 11, 12, 13, 14],
+    category: "Техническая",
+    programms: [
+      {
+        programmName: "Технология",
+        teacher: {
+          teacherPic: ["../img/About/men-avatar.png"],
+          teacherName: ["Михаевич Вадим Константинович"],
+        },
+        category: "техническая",
+        duration: "1 год",
+        price: "на бюджетной основе (бесплатно)",
+        description: ["Научись пилить, строгать, выжигать!"],
+        groups: [
+          {
+            id: 0,
+            groupName: "Группа № 1",
+            year: "1-й год обучения",
+            age: "10-14 лет",
+            signInButtonAllowed: false,
+            schedule: {
+              monday: "17:00 – 19:30",
+              tuesday: "",
+              wednesday: "",
+              thursday: "",
+              friday: "",
+              saturday: "",
+            },
+          },
+        ],
+        signInButton: "https://dopobr.petersburgedu.ru/programs/97934/groups/",
+      },
+    ],
+  },
   // СОЦИАЛЬНО-ГУМАНИТАРНАЯ
   {
     image: {
