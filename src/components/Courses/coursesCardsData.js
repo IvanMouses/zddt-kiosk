@@ -176,7 +176,7 @@ export const coursesCardsData = [
       {
         programmName: "Творческая студия «Цвет»",
         teacher: {
-          teacherPic: ["/img/About/18.png"],
+          teacherPic: ["../img/About/18.png"],
           teacherName: ["Мершеева Евгения Александровна"],
         },
         category: "художественная",
@@ -590,7 +590,7 @@ export const coursesCardsData = [
             signInButtonAllowed: false,
             schedule: {
               monday: "",
-              tuesday: "14:10 – 15:40",
+              tuesday: "14:20 – 15:50",
               wednesday: "",
               thursday: "14:10 – 15:40",
               friday: "14:10 – 15:40",
@@ -714,16 +714,60 @@ export const coursesCardsData = [
       },
     ],
     achievements: [
-      { src: "/img/Courses/Achievements/15-1.jpeg" },
-      { src: "/img/Courses/Achievements/15-2.jpeg" },
-      { src: "/img/Courses/Achievements/15-3.jpeg" },
-      { src: "/img/Courses/Achievements/15-4.jpeg" },
-      { src: "/img/Courses/Achievements/15-5.jpeg" },
-      { src: "/img/Courses/Achievements/15-6.jpeg" },
-      { src: "/img/Courses/Achievements/15-7.jpg" },
-      { src: "/img/Courses/Achievements/15-8.jpeg" },
+      { src: "../img/Courses/Achievements/15-1.jpeg" },
+      { src: "../img/Courses/Achievements/15-2.jpeg" },
+      { src: "../img/Courses/Achievements/15-3.jpeg" },
+      { src: "../img/Courses/Achievements/15-4.jpeg" },
+      { src: "../img/Courses/Achievements/15-5.jpeg" },
+      { src: "../img/Courses/Achievements/15-6.jpeg" },
+      { src: "../img/Courses/Achievements/15-7.jpg" },
+      { src: "../img/Courses/Achievements/15-8.jpeg" },
     ],
   },
+  // {
+  //   image: {
+  //     src: "img/Courses/32.jpg",
+  //   },
+  //   title: "Студия текстиля «Волшебные лоскутки»",
+  //   vacantPlaces: true,
+  //   extraText: [6, 7],
+  //   category: "Художественная",
+  //   programms: [
+  //     {
+  //       programmName: "Студия текстиля «Волшебные лоскутки»",
+  //       teacher: {
+  //         teacherPic: ["../img/About/women-avatar.png"],
+  //         teacherName: ["Дубровская Наталия Вадимовна"],
+  //       },
+  //       category: "художественная",
+  //       duration: "1 год",
+  //       price: "на бюджетной основе (бесплатно)",
+  //       description: [
+  //         "Лоскутки - небольшие кусочки ткани, которые остались после раскроя и могут быть использованы для создания необычных изделий для декора.",
+  //         "В программе: индивидуальные работы детей /без использования иголок, ниток/, выполненных в технике «лоскутная аппликация» /объемная или плоская.",
+  //         "Результат: в процессе творческих занятий дети научатся создавать – лоскутные панно, декоративные украшения, подарки к праздникам, игрушки.",
+  //       ],
+  //       groups: [
+  //         {
+  //           id: 0,
+  //           groupName: "Группа № 1",
+  //           year: "1-й год обучения",
+  //           age: "6-7 лет",
+  //           signInButtonAllowed: false,
+  //           schedule: {
+  //             monday: "",
+  //             tuesday: "",
+  //             wednesday: "18:00 – 19:30",
+  //             thursday: "",
+  //             friday: "18:00 – 19:30",
+  //             saturday: "",
+  //           },
+  //         },
+  //       ],
+  //       signInButton: "https://dopobr.petersburgedu.ru/programs/92620/groups/",
+  //     },
+  //   ],
+  // },
   {
     image: {
       src: "img/Courses/16.jpg",
@@ -1137,10 +1181,10 @@ export const coursesCardsData = [
       },
     ],
     achievements: [
-      { src: "/img/Courses/Achievements/2-1.jpg" },
-      { src: "/img/Courses/Achievements/2-2.jpg" },
-      { src: "/img/Courses/Achievements/2-3.jpg" },
-      { src: "/img/Courses/Achievements/2-4.jpg" },
+      { src: "../img/Courses/Achievements/2-1.jpg" },
+      { src: "../img/Courses/Achievements/2-2.jpg" },
+      { src: "../img/Courses/Achievements/2-3.jpg" },
+      { src: "../img/Courses/Achievements/2-4.jpg" },
     ],
   },
   {
@@ -1477,7 +1521,7 @@ export const coursesCardsData = [
         signInButton: "https://dopobr.petersburgedu.ru/programs/18929/groups/",
       },
     ],
-    achievements: [{ src: "/img/Courses/Achievements/8-1.jpg" }],
+    achievements: [{ src: "../img/Courses/Achievements/8-1.jpg" }],
   },
   {
     image: {
@@ -1830,8 +1874,8 @@ export const coursesCardsData = [
             age: "14-16 лет",
             signInButtonAllowed: false,
             schedule: {
-              monday: "19:00 – 20:40",
-              tuesday: "",
+              monday: "",
+              tuesday: "19:00 – 20:40",
               wednesday: "19:00 – 20:40",
               thursday: "",
               friday: "19:00 – 20:40",
@@ -1860,12 +1904,12 @@ export const coursesCardsData = [
             age: "10-15 лет",
             signInButtonAllowed: false,
             schedule: {
-              monday: "",
+              monday: "19:00 – 20:40",
               tuesday: "17:00 – 18:40",
               wednesday: "",
               thursday: "17:00 – 18:40",
               friday: "",
-              saturday: "17:00 – 18:40",
+              saturday: "",
             },
           },
         ],
@@ -1992,8 +2036,8 @@ export const coursesCardsData = [
       },
     ],
     achievements: [
-      { src: "/img/Courses/Achievements/7-1.jpg" },
-      { src: "/img/Courses/Achievements/7-2.jpg" },
+      { src: "../img/Courses/Achievements/7-1.jpg" },
+      { src: "../img/Courses/Achievements/7-2.jpg" },
     ],
   },
   {
