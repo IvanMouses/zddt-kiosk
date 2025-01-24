@@ -33,8 +33,10 @@
   font-weight: 600;
 }
 .mainHeroText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   font-size: 22px;
-  text-align: center;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   padding: 20px;
@@ -49,36 +51,30 @@
     text-align: center;
   }
 }
-.heroButtonsContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+.mainHeroGallery {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 20px;
 }
 @media (max-width: 425px) {
-  .heroButtonsContainer {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .heroButton {
-    text-align: center;
+  .mainHeroGallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-.heroButton {
-  border: none;
-  background-color: transparent;
-  padding: 0px;
-  background-color: #fdde55;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  font-size: 22px;
-  padding: 10px;
-  border-radius: 10px;
+.mainHeroGalleryImageContainer {
+  position: relative;
+  padding-bottom: 100%;
+}
+.mainHeroGalleryImageContainer > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 100%;
   cursor: pointer;
-  transition: all 0.3s;
-  color: #524c42;
-}
-.heroButton:hover {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border-radius: 5px;
 }

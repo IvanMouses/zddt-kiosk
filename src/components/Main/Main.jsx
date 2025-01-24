@@ -3,6 +3,7 @@ import { useState, useEffect, lazy } from "react";
 import classes from "./Main.module.css";
 import newsClasses from "../News/News.module.css";
 import NewsItem from "../News/NewsItem";
+import Hero from "./Hero";
 
 export default function Main() {
   const [showingNews, setShowingNews] = useState(6);
@@ -21,6 +22,7 @@ export default function Main() {
 
   return (
     <div className={classes.main}>
+      <Hero />
       <div className={classes.mainRecentNews}>
         <div className={classes.mainRecentNewsContainer}>
           <h2 className={classes.mainRecentNewsTitle}>Последние новости</h2>
