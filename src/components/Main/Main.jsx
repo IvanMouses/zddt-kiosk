@@ -22,7 +22,7 @@ export default function Main() {
 
   return (
     <div className={classes.main}>
-      <Hero />
+      {/* <Hero /> */}
       <div className={classes.mainRecentNews}>
         <div className={classes.mainRecentNewsContainer}>
           <h2 className={classes.mainRecentNewsTitle}>Последние новости</h2>
