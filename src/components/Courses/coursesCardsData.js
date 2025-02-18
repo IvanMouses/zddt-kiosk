@@ -724,50 +724,6 @@ export const coursesCardsData = [
       { src: "../img/Courses/Achievements/15-8.jpeg" },
     ],
   },
-  // {
-  //   image: {
-  //     src: "img/Courses/32.jpg",
-  //   },
-  //   title: "Студия текстиля «Волшебные лоскутки»",
-  //   vacantPlaces: true,
-  //   extraText: [6, 7],
-  //   category: "Художественная",
-  //   programms: [
-  //     {
-  //       programmName: "Студия текстиля «Волшебные лоскутки»",
-  //       teacher: {
-  //         teacherPic: ["../img/About/women-avatar.png"],
-  //         teacherName: ["Дубровская Наталия Вадимовна"],
-  //       },
-  //       category: "художественная",
-  //       duration: "1 год",
-  //       price: "на бюджетной основе (бесплатно)",
-  //       description: [
-  //         "Лоскутки - небольшие кусочки ткани, которые остались после раскроя и могут быть использованы для создания необычных изделий для декора.",
-  //         "В программе: индивидуальные работы детей /без использования иголок, ниток/, выполненных в технике «лоскутная аппликация» /объемная или плоская.",
-  //         "Результат: в процессе творческих занятий дети научатся создавать – лоскутные панно, декоративные украшения, подарки к праздникам, игрушки.",
-  //       ],
-  //       groups: [
-  //         {
-  //           id: 0,
-  //           groupName: "Группа № 1",
-  //           year: "1-й год обучения",
-  //           age: "6-7 лет",
-  //           signInButtonAllowed: false,
-  //           schedule: {
-  //             monday: "",
-  //             tuesday: "",
-  //             wednesday: "18:00 – 19:30",
-  //             thursday: "",
-  //             friday: "18:00 – 19:30",
-  //             saturday: "",
-  //           },
-  //         },
-  //       ],
-  //       signInButton: "https://dopobr.petersburgedu.ru/programs/92620/groups/",
-  //     },
-  //   ],
-  // },
   {
     image: {
       src: "img/Courses/16.jpg",
@@ -1556,6 +1512,100 @@ export const coursesCardsData = [
               thursday: "",
               friday: "",
               saturday: "",
+            },
+          },
+        ],
+        signInButton: "https://dopobr.petersburgedu.ru/programs/97934/groups/",
+      },
+    ],
+  },
+  {
+    image: {
+      src: "img/Courses/9.jpg",
+    },
+    title: "Анимация в 2D и 3D пространстве",
+    vacantPlaces: false,
+    extraText: [10, 11, 12, 13, 14, 15, 16, 17],
+    extraInfo: [
+      {
+        text: "Укомплектовано",
+        description: "Мест нет - возможна запись в резерв",
+      },
+    ],
+    category: "Техническая",
+    programms: [
+      {
+        programmName: "Анимация в 2D и 3D пространстве",
+        teacher: {
+          teacherPic: ["../img/About/men-avatar.png"],
+          teacherName: ["Жамалов Тимур Рамильевич"],
+        },
+        category: "техническая",
+        duration: "1 год",
+        price: "на бюджетной основе (бесплатно)",
+        description: [
+          "Приглашаем всех желающих в увлекательное объединение «Анимация в 2D и 3D пространстве»! Вас ждут захватывающие уроки по созданию мультфильмов.",
+          "Мы научимся работать с программным обеспечением для анимации (Blender), создавать персонажей, оживлять их движения и разрабатывать уникальные сюжеты. Занятия станут отличным стартом для тех, кто мечтает о карьере в сфере анимации и дизайна!",
+        ],
+        groups: [
+          {
+            id: 0,
+            vacantPlaces:
+              "Группа укомплектована (мест нет, возможна запись в резерв)",
+            groupName: "Группа № 1",
+            year: "1-й год обучения",
+            age: "10-17 лет",
+            signInButtonAllowed: false,
+            schedule: {
+              monday: "",
+              tuesday: "",
+              wednesday: "",
+              thursday: "",
+              friday: "17:50 – 19:30",
+              saturday: "12:50 – 14:30",
+            },
+          },
+        ],
+        signInButton: "https://dopobr.petersburgedu.ru/programs/97934/groups/",
+      },
+    ],
+  },
+  {
+    image: {
+      src: "img/Courses/41.jpg",
+    },
+    title: "VR-программирование и 3D моделирование",
+    vacantPlaces: true,
+    extraText: [12, 13, 14, 15, 16, 17],
+    category: "Техническая",
+    programms: [
+      {
+        programmName: "VR-программирование и 3D моделирование",
+        teacher: {
+          teacherPic: ["../img/About/men-avatar.png"],
+          teacherName: ["Жамалов Тимур Рамильевич"],
+        },
+        category: "техническая",
+        duration: "1 год",
+        price: "на бюджетной основе (бесплатно)",
+        description: [
+          "Интересуетесь виртуальной реальностью, но не знаете, с чего начать? Добро пожаловать в «VR-программирование и 3D моделирование»! Мы поможем вам сделать первые шаги в мире разработки VR-приложений и познакомим вас с основными инструментами и техниками 3D-моделирования.",
+          "Вы научитесь создавать простые формы, а затем перейдете к более сложным моделям. Далее мы изучим основы программирования, покажем, как работают VR-технологии, и вместе создадим простые, но впечатляющие проекты.",
+        ],
+        groups: [
+          {
+            id: 0,
+            groupName: "Группа № 1",
+            year: "1-й год обучения",
+            age: "12-17 лет",
+            signInButtonAllowed: false,
+            schedule: {
+              monday: "",
+              tuesday: "",
+              wednesday: "",
+              thursday: "",
+              friday: "16:00 – 17:40",
+              saturday: "11:00 – 12:40",
             },
           },
         ],
