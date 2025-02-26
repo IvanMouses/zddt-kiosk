@@ -1528,8 +1528,9 @@ export const coursesCardsData = [
     extraText: [10, 11, 12, 13, 14, 15, 16, 17],
     extraInfo: [
       {
-        text: "Укомплектовано",
-        description: "Мест нет - возможна запись в резерв",
+        text: "Частично укомплектовано",
+        description:
+          "В некоторых группах есть места - подробности в карточке программы",
       },
     ],
     category: "Техническая",
@@ -1562,6 +1563,22 @@ export const coursesCardsData = [
               wednesday: "",
               thursday: "",
               friday: "17:50 – 19:30",
+              saturday: "",
+            },
+          },
+          {
+            id: 1,
+            vacantPlaces: true,
+            groupName: "Группа № 2",
+            year: "1-й год обучения",
+            age: "10-17 лет",
+            signInButtonAllowed: false,
+            schedule: {
+              monday: "",
+              tuesday: "",
+              wednesday: "",
+              thursday: "",
+              friday: "",
               saturday: "12:50 – 14:30",
             },
           },
