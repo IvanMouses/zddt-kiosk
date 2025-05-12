@@ -7,6 +7,7 @@ import ModalWindow from "./ModalWindow";
 import { ScrollRestoration } from "react-router-dom";
 import Loader from "./Loader";
 import UpToHeader from "./UpToHeader/UpToHeader";
+import Hero from "./Main/Hero";
 
 export default function App() {
   const [openModal, setOpenModal] = useState(false);
@@ -22,6 +23,7 @@ export default function App() {
       <UpToHeader />
       <Header />
       <div className={classes.wrapper}>
+        {/* <Hero /> */}
         <Suspense fallback={<Loader />}>
           <Outlet context={[setOpenModal, setModalWindowContent]} />
         </Suspense>
