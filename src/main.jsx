@@ -15,6 +15,8 @@ import NewsShowMore from "./components/News/NewsShowMore";
 import Contacts from "./components/Contacts/Contacts";
 import Courses from "./components/Courses/Courses";
 import CoursesShowMore from "./components/Courses/CoursesShowMore";
+import SummerCourses from "./components/Courses/SummerCourses";
+import SummerCoursesShowMore from "./components/Courses/SummerCoursesShowMore";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,6 +30,11 @@ const router = createBrowserRouter(
       <Route
         path="/zddt-kiosk/courses/:courseTitle"
         element={<CoursesShowMore />}
+      />
+      <Route path="summer-courses" element={<SummerCourses />} />
+      <Route
+        path="summer-courses/:coursTitle"
+        element={<SummerCoursesShowMore />}
       />
     </Route>
   )

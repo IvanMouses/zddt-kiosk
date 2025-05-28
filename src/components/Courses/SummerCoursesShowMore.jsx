@@ -140,6 +140,21 @@ export default function CoursesShowMore() {
                             }
                             data-group={group.id}
                           >
+                            {group.vacantPlaces && (
+                              <p
+                                className={
+                                  classes.coursesShowMoreCardProgrammScheduleYear
+                                }
+                              >
+                                <span
+                                  style={{
+                                    fontSize: "22px",
+                                  }}
+                                >
+                                  {group.vacantPlaces}
+                                </span>
+                              </p>
+                            )}
                             {group.startDate && (
                               <p
                                 className={
@@ -259,15 +274,17 @@ export default function CoursesShowMore() {
                                 </div>
                               </div>
                             </div>
-                            <a
-                              href={`${programm.signInButton}`}
-                              target="_blank"
-                              className={
-                                classes.coursesShowMoreCardProgrammScheduleSignInButton
-                              }
-                            >
-                              ЗАПИСАТЬСЯ
-                            </a>
+                            {/* {group.signInButtonAllowed && (
+                              <a
+                                href={`${programm.signInButton}`}
+                                target="_blank"
+                                className={
+                                  classes.coursesShowMoreCardProgrammScheduleSignInButton
+                                }
+                              >
+                                ЗАПИСАТЬСЯ
+                              </a>
+                            )} */}
                           </div>
                         </div>
                       ))}

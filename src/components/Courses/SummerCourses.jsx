@@ -12,15 +12,20 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 
 export default function Courses() {
   const [active, setActive] = useState(false);
   const [ageFilter, setAgeFilter] = useState(null);
   const [categoryFilter, setCategoryFilter] = useState("");
   const [categoryFilterDropDown, setCategoryFilterDropDown] = useState(false);
+  const [checkFilter, setCheckFilter] = useState(false);
+
   const filter = {
     age: ageFilter,
     category: categoryFilter,
+    check: checkFilter,
   };
   const [showingCourseCards, setShowingCourseCards] = useState(0);
   useEffect(() => {
@@ -59,7 +64,10 @@ export default function Courses() {
 
   useEffect(() => {
     function activeFilters(e) {
-      if (e.target.classList.contains(`${classes.fiterDescription}`)) {
+      if (
+        e.target.classList.contains(`${classes.filterContainer}`) ||
+        e.target.classList.contains(`${classes.fiterDescription}`)
+      ) {
         document
           .querySelector(`.${classes.filters}`)
           .classList.toggle(`${classes.active}`);
@@ -80,6 +88,7 @@ export default function Courses() {
         e.target.classList.contains(`${classes.filterProgrammCategoryOption}`)
       ) {
         setCategoryFilter(e.target.textContent);
+        localStorage.setItem("category", `${e.target.textContent}`);
       }
     }
     document.documentElement.addEventListener("click", handleCategoryFilter);
@@ -129,11 +138,23 @@ export default function Courses() {
     );
   }, [ageFilter, categoryFilter]);
 
+  useEffect(() => {
+    setAgeFilter(Number(localStorage.getItem("age")));
+    setCategoryFilter(localStorage.getItem("category"));
+    if (localStorage.getItem("check") == "true") {
+      document.getElementById("checkFilter").checked = true;
+      setCheckFilter(true);
+    } else {
+      document.getElementById("checkFilter").checked = false;
+      setCheckFilter(false);
+    }
+  }, []);
+
   return (
     <section className={classes.courses}>
       <div className={classes.coursesContainer}>
         <div className={mainClasses.navigation}>
-          <Link to="/" className={mainClasses.navigationLink}>
+          <Link to="/zddt-kiosk" className={mainClasses.navigationLink}>
             Главная
           </Link>
           <FontAwesomeIcon
@@ -141,10 +162,10 @@ export default function Courses() {
             icon={faAngleRight}
           />
           <Link
-            to="/summer-courses"
+            to="/zddt-kiosk/summer-courses"
             className={`${mainClasses.navigationLink} ${mainClasses.current}`}
           >
-            Летние краткосрочные программы
+            Краткосрочные образовательные программы
           </Link>
         </div>
         <div
@@ -154,7 +175,7 @@ export default function Courses() {
           className={classes.coursesHeader}
         >
           <h2 className={classes.coursesTitle}>
-            Летние краткосрочные программы
+            Краткосрочные (летние) образовательные программы
           </h2>
           <div className={classes.filterContainer}>
             <p className={classes.fiterDescription}>Фильтры</p>
@@ -171,22 +192,48 @@ export default function Courses() {
                     .classList.toggle(`${classes.active}`);
                 }}
               />
-              <span className={classes.activeFiltersCounter}>
-                {ageFilter && categoryFilter
-                  ? 2
-                  : categoryFilter
-                  ? 1
-                  : ageFilter
-                  ? 1
-                  : ""}
-              </span>
+              {(ageFilter || categoryFilter || checkFilter) && (
+                <span className={classes.activeFiltersCounter}>
+                  {ageFilter && categoryFilter && checkFilter
+                    ? 3
+                    : categoryFilter && ageFilter
+                    ? 2
+                    : ageFilter && checkFilter
+                    ? 2
+                    : categoryFilter && checkFilter
+                    ? 2
+                    : ageFilter || categoryFilter || checkFilter
+                    ? 1
+                    : ""}
+                </span>
+              )}
             </div>
 
             <div className={classes.filters}>
-              <div className={classes.filterAge}>
+              <div className={classes.checkFilter}>
                 <input
                   onChange={(e) => {
+                    setCheckFilter(e.target.checked);
+                    localStorage.setItem("check", e.target.checked);
+                  }}
+                  className={classes.checkFilterInput}
+                  type="checkbox"
+                  name="checkFilter"
+                  id="checkFilter"
+                />
+                <label
+                  className={classes.labelCheckFilter}
+                  htmlFor="checkFilter"
+                >
+                  Есть места
+                </label>
+              </div>
+              <div className={classes.filterAge}>
+                <input
+                  value={localStorage.getItem("age")}
+                  onChange={(e) => {
                     setAgeFilter(Number(e.target.value));
+                    localStorage.setItem("age", `${e.target.value}`);
                     if (e.target.value.startsWith("0")) {
                       e.target.value = "";
                     }
@@ -214,6 +261,7 @@ export default function Courses() {
                     <FontAwesomeIcon
                       onClick={() => {
                         setAgeFilter("");
+                        localStorage.setItem("age", "");
                         document.querySelector(
                           `.${classes.filterAgeInput}`
                         ).value = "";
@@ -270,7 +318,10 @@ export default function Courses() {
                   />
                   {categoryFilter && (
                     <FontAwesomeIcon
-                      onClick={() => setCategoryFilter(null)}
+                      onClick={() => {
+                        setCategoryFilter(null);
+                        localStorage.setItem("category", "");
+                      }}
                       icon={faXmark}
                       className={classes.filterProgrammCategoryResetFilter}
                     />
@@ -282,7 +333,7 @@ export default function Courses() {
         </div>
         <a
           target="_blank"
-          href="/docs/schedule_summer.pdf"
+          href="/zddt-kiosk/docs/schedule-summer.pdf"
           className={
             active
               ? `${classes.coursesSchedule} ${classes.active}`
@@ -299,13 +350,13 @@ export default function Courses() {
           <div className={classes.coursesCardsMissingPage}>
             <img
               className={classes.coursesCardsMissingPageImg}
-              src="/img/missing-page-cat.png"
+              src="./img/missing-page-cat.png"
             ></img>
             По вашему запросу ничего не найдено...
           </div>
         )}
         <div className={classes.coursesCards}>
-          {!filter.age && !filter.category
+          {!filter.age && !filter.category && !filter.check
             ? summerCoursesCardsData.map((card) => (
                 <Link
                   to={card.title}
@@ -324,19 +375,31 @@ export default function Courses() {
                     <h3 className={classes.coursesCardTitle}>{card.title}</h3>
                     <div className={classes.coursesCardExtra}>
                       <span className={classes.coursesCardExtraText}>
-                        с {card.extraText[0]} до{" "}
-                        {card.extraText[card.extraText.length - 1]} лет
+                        {card.extraText.length > 1
+                          ? `с ${card.extraText[0]} до
+                        ${card.extraText[card.extraText.length - 1]} лет`
+                          : `для ${card.extraText[0]} лет`}
                       </span>
-                      {card.extraMonth && (
-                        <span className={classes.coursesCardExtraText}>
-                          {card?.extraMonth}
-                        </span>
-                      )}
+                      {card.extraInfo &&
+                        card.extraInfo.map((i, index) => (
+                          <Tippy
+                            content={i.description}
+                            key={index}
+                            touch={true}
+                          >
+                            <span
+                              className={classes.coursesCardExtraText}
+                              onClick={(e) => e.preventDefault()}
+                            >
+                              {i.text}
+                            </span>
+                          </Tippy>
+                        ))}
                     </div>
                   </div>
                 </Link>
               ))
-            : filter.age && !filter.category
+            : filter.age && !filter.category && !filter.check
             ? summerCoursesCardsData
                 .filter((data) => data.extraText.includes(filter.age))
                 .map((card) => (
@@ -357,14 +420,31 @@ export default function Courses() {
                       <h3 className={classes.coursesCardTitle}>{card.title}</h3>
                       <div className={classes.coursesCardExtra}>
                         <span className={classes.coursesCardExtraText}>
-                          с {card.extraText[0]} до{" "}
-                          {card.extraText[card.extraText.length - 1]} лет
+                          {card.extraText.length > 1
+                            ? `с ${card.extraText[0]} до
+                        ${card.extraText[card.extraText.length - 1]} лет`
+                            : `для ${card.extraText[0]} лет`}
                         </span>
+                        {card.extraInfo &&
+                          card.extraInfo.map((i, index) => (
+                            <Tippy
+                              content={i.description}
+                              key={index}
+                              touch={true}
+                            >
+                              <span
+                                className={classes.coursesCardExtraText}
+                                onClick={(e) => e.preventDefault()}
+                              >
+                                {i.text}
+                              </span>
+                            </Tippy>
+                          ))}
                       </div>
                     </div>
                   </Link>
                 ))
-            : !filter.age && filter.category
+            : !filter.age && filter.category && !filter.check
             ? summerCoursesCardsData
                 .filter((data) => data.category === filter.category)
                 .map((card) => (
@@ -385,18 +465,35 @@ export default function Courses() {
                       <h3 className={classes.coursesCardTitle}>{card.title}</h3>
                       <div className={classes.coursesCardExtra}>
                         <span className={classes.coursesCardExtraText}>
-                          с {card.extraText[0]} до{" "}
-                          {card.extraText[card.extraText.length - 1]} лет
+                          {card.extraText.length > 1
+                            ? `с ${card.extraText[0]} до
+                        ${card.extraText[card.extraText.length - 1]} лет`
+                            : `для ${card.extraText[0]} лет`}
                         </span>
+                        {card.extraInfo &&
+                          card.extraInfo.map((i, index) => (
+                            <Tippy
+                              content={i.description}
+                              key={index}
+                              touch={true}
+                            >
+                              <span
+                                className={classes.coursesCardExtraText}
+                                onClick={(e) => e.preventDefault()}
+                              >
+                                {i.text}
+                              </span>
+                            </Tippy>
+                          ))}
                       </div>
                     </div>
                   </Link>
                 ))
-            : summerCoursesCardsData
+            : filter.age && !filter.category && filter.check
+            ? summerCoursesCardsData
                 .filter(
                   (data) =>
-                    data.extraText.includes(filter.age) &&
-                    data.category === filter.category
+                    data.extraText.includes(filter.age) && data.vacantPlaces
                 )
                 .map((card) => (
                   <Link
@@ -416,9 +513,267 @@ export default function Courses() {
                       <h3 className={classes.coursesCardTitle}>{card.title}</h3>
                       <div className={classes.coursesCardExtra}>
                         <span className={classes.coursesCardExtraText}>
-                          с {card.extraText[0]} до{" "}
-                          {card.extraText[card.extraText.length - 1]} лет
+                          {card.extraText.length > 1
+                            ? `с ${card.extraText[0]} до
+                    ${card.extraText[card.extraText.length - 1]} лет`
+                            : `для ${card.extraText[0]} лет`}
                         </span>
+                        {card.extraInfo &&
+                          card.extraInfo.map((i, index) => (
+                            <Tippy
+                              content={i.description}
+                              key={index}
+                              touch={true}
+                            >
+                              <span
+                                className={classes.coursesCardExtraText}
+                                onClick={(e) => e.preventDefault()}
+                              >
+                                {i.text}
+                              </span>
+                            </Tippy>
+                          ))}
+                      </div>
+                    </div>
+                  </Link>
+                ))
+            : !filter.age && filter.category && filter.check
+            ? summerCoursesCardsData
+                .filter(
+                  (data) =>
+                    data.category === filter.category && data.vacantPlaces
+                )
+                .map((card) => (
+                  <Link
+                    to={card.title}
+                    key={card.title}
+                    className={classes.coursesCard}
+                  >
+                    <div className={classes.coursesCardBody}>
+                      <div className={classes.coursesCardImage}>
+                        <img
+                          loading="lazy"
+                          src={card.image.src}
+                          alt=""
+                          className={classes.coursesCardPicture}
+                        />
+                      </div>
+                      <h3 className={classes.coursesCardTitle}>{card.title}</h3>
+                      <div className={classes.coursesCardExtra}>
+                        <span className={classes.coursesCardExtraText}>
+                          {card.extraText.length > 1
+                            ? `с ${card.extraText[0]} до
+                        ${card.extraText[card.extraText.length - 1]} лет`
+                            : `для ${card.extraText[0]} лет`}
+                        </span>
+                        {card.extraInfo &&
+                          card.extraInfo.map((i, index) => (
+                            <Tippy
+                              content={i.description}
+                              key={index}
+                              touch={true}
+                            >
+                              <span
+                                className={classes.coursesCardExtraText}
+                                onClick={(e) => e.preventDefault()}
+                              >
+                                {i.text}
+                              </span>
+                            </Tippy>
+                          ))}
+                      </div>
+                    </div>
+                  </Link>
+                ))
+            : filter.age && filter.category && filter.check
+            ? summerCoursesCardsData
+                .filter(
+                  (data) =>
+                    data.category === filter.category &&
+                    data.extraText.includes(filter.age) &&
+                    data.vacantPlaces
+                )
+                .map((card) => (
+                  <Link
+                    to={card.title}
+                    key={card.title}
+                    className={classes.coursesCard}
+                  >
+                    <div className={classes.coursesCardBody}>
+                      <div className={classes.coursesCardImage}>
+                        <img
+                          loading="lazy"
+                          src={card.image.src}
+                          alt=""
+                          className={classes.coursesCardPicture}
+                        />
+                      </div>
+                      <h3 className={classes.coursesCardTitle}>{card.title}</h3>
+                      <div className={classes.coursesCardExtra}>
+                        <span className={classes.coursesCardExtraText}>
+                          {card.extraText.length > 1
+                            ? `с ${card.extraText[0]} до
+                        ${card.extraText[card.extraText.length - 1]} лет`
+                            : `для ${card.extraText[0]} лет`}
+                        </span>
+                        {card.extraInfo &&
+                          card.extraInfo.map((i, index) => (
+                            <Tippy
+                              content={i.description}
+                              key={index}
+                              touch={true}
+                            >
+                              <span
+                                className={classes.coursesCardExtraText}
+                                onClick={(e) => e.preventDefault()}
+                              >
+                                {i.text}
+                              </span>
+                            </Tippy>
+                          ))}
+                      </div>
+                    </div>
+                  </Link>
+                ))
+            : filter.age && filter.category && !filter.check
+            ? summerCoursesCardsData
+                .filter(
+                  (data) =>
+                    data.category === filter.category &&
+                    data.extraText.includes(filter.age)
+                )
+                .map((card) => (
+                  <Link
+                    to={card.title}
+                    key={card.title}
+                    className={classes.coursesCard}
+                  >
+                    <div className={classes.coursesCardBody}>
+                      <div className={classes.coursesCardImage}>
+                        <img
+                          loading="lazy"
+                          src={card.image.src}
+                          alt=""
+                          className={classes.coursesCardPicture}
+                        />
+                      </div>
+                      <h3 className={classes.coursesCardTitle}>{card.title}</h3>
+                      <div className={classes.coursesCardExtra}>
+                        <span className={classes.coursesCardExtraText}>
+                          {card.extraText.length > 1
+                            ? `с ${card.extraText[0]} до
+                        ${card.extraText[card.extraText.length - 1]} лет`
+                            : `для ${card.extraText[0]} лет`}
+                        </span>
+                        {card.extraInfo &&
+                          card.extraInfo.map((i, index) => (
+                            <Tippy
+                              content={i.description}
+                              key={index}
+                              touch={true}
+                            >
+                              <span
+                                className={classes.coursesCardExtraText}
+                                onClick={(e) => e.preventDefault()}
+                              >
+                                {i.text}
+                              </span>
+                            </Tippy>
+                          ))}
+                      </div>
+                    </div>
+                  </Link>
+                ))
+            : !filter.age && !filter.category && filter.check
+            ? summerCoursesCardsData
+                .filter((data) => data.vacantPlaces)
+                .map((card) => (
+                  <Link
+                    to={card.title}
+                    key={card.title}
+                    className={classes.coursesCard}
+                  >
+                    <div className={classes.coursesCardBody}>
+                      <div className={classes.coursesCardImage}>
+                        <img
+                          loading="lazy"
+                          src={card.image.src}
+                          alt=""
+                          className={classes.coursesCardPicture}
+                        />
+                      </div>
+                      <h3 className={classes.coursesCardTitle}>{card.title}</h3>
+                      <div className={classes.coursesCardExtra}>
+                        <span className={classes.coursesCardExtraText}>
+                          {card.extraText.length > 1
+                            ? `с ${card.extraText[0]} до
+                        ${card.extraText[card.extraText.length - 1]} лет`
+                            : `для ${card.extraText[0]} лет`}
+                        </span>
+                        {card.extraInfo &&
+                          card.extraInfo.map((i, index) => (
+                            <Tippy
+                              content={i.description}
+                              key={index}
+                              touch={true}
+                            >
+                              <span
+                                className={classes.coursesCardExtraText}
+                                onClick={(e) => e.preventDefault()}
+                              >
+                                {i.text}
+                              </span>
+                            </Tippy>
+                          ))}
+                      </div>
+                    </div>
+                  </Link>
+                ))
+            : summerCoursesCardsData
+                .filter(
+                  (data) =>
+                    data.extraText.includes(filter.age) &&
+                    data.category === filter.category &&
+                    data.vacantPlaces
+                )
+                .map((card) => (
+                  <Link
+                    to={card.title}
+                    key={card.title}
+                    className={classes.coursesCard}
+                  >
+                    <div className={classes.coursesCardBody}>
+                      <div className={classes.coursesCardImage}>
+                        <img
+                          loading="lazy"
+                          src={card.image.src}
+                          alt=""
+                          className={classes.coursesCardPicture}
+                        />
+                      </div>
+                      <h3 className={classes.coursesCardTitle}>{card.title}</h3>
+                      <div className={classes.coursesCardExtra}>
+                        <span className={classes.coursesCardExtraText}>
+                          {card.extraText.length > 1
+                            ? `с ${card.extraText[0]} до
+                        ${card.extraText[card.extraText.length - 1]} лет`
+                            : `для ${card.extraText[0]} лет`}
+                        </span>
+                        {card.extraInfo &&
+                          card.extraInfo.map((i, index) => (
+                            <Tippy
+                              content={i.description}
+                              key={index}
+                              touch={true}
+                            >
+                              <span
+                                className={classes.coursesCardExtraText}
+                                onClick={(e) => e.preventDefault()}
+                              >
+                                {i.text}
+                              </span>
+                            </Tippy>
+                          ))}
                       </div>
                     </div>
                   </Link>

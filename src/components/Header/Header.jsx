@@ -99,7 +99,7 @@ export default function Header() {
                 };
               }}
               onClick={() => showMenu && setShowMenu()}
-              to="/zddt-kiosk/courses"
+              to="/zddt-kiosk/summer-courses"
             >
               Образовательные программы
             </NavLink>
