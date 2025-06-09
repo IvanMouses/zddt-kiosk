@@ -130,7 +130,7 @@ export const summerCoursesCardsData = [
             groupName: "Группа 7-9 лет",
             startDate: "01.06.2025",
             year: "1-й год обучения",
-            age: "7-8 лет",
+            age: "7-9 лет",
             signInButtonAllowed: true,
             schedule: {
               monday: "",
@@ -163,12 +163,19 @@ export const summerCoursesCardsData = [
       },
     ],
   },
+  // Укомлектовано
   {
     image: {
       src: "img/Courses/35.jpg",
     },
     title: "Изостудия «Творец»",
-    vacantPlaces: true,
+    vacantPlaces: false,
+    extraInfo: [
+      {
+        text: "Укомплектовано",
+        description: "Мест нет, группа набрана",
+      },
+    ],
     extraText: [5],
     // extraMonth: "старт в июле",
     category: "Художественная",
@@ -190,11 +197,12 @@ export const summerCoursesCardsData = [
         groups: [
           {
             id: 0,
+            vacantPlaces: "Группа укомплектована, мест нет",
             groupName: "Группа 1",
             startDate: "01.06.2025",
             year: "1-й год обучения",
             age: "5 лет",
-            signInButtonAllowed: true,
+            signInButtonAllowed: false,
             schedule: {
               monday: "12:50 – 14:30",
               tuesday: "",
@@ -295,8 +303,8 @@ export const summerCoursesCardsData = [
             schedule: {
               monday: "15:00 – 16:40",
               tuesday: "",
-              wednesday: "",
-              thursday: "15:00 – 16:40",
+              wednesday: "15:00 – 16:40",
+              thursday: "",
               friday: "",
               saturday: "",
             },
@@ -470,10 +478,11 @@ export const summerCoursesCardsData = [
           {
             id: 2,
             groupName: "Группа 9-12 лет",
+            vacantPlaces: "Группа укомплектована, мест нет",
             startDate: "01.06.2025",
             year: "1-й год обучения",
             age: "9-12 лет",
-            signInButtonAllowed: true,
+            signInButtonAllowed: false,
             schedule: {
               monday: "14:50 – 16:30",
               tuesday: "",

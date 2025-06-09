@@ -26,15 +26,18 @@ export default function CoursesShowMore() {
     <div className={classes.coursesShowMore}>
       <div className={classes.coursesShowMoreContainer}>
         <div className={mainClasses.navigation}>
-          <Link to="/" className={mainClasses.navigationLink}>
+          <Link to="/zddt-kiosk" className={mainClasses.navigationLink}>
             Главная
           </Link>
           <FontAwesomeIcon
             className={mainClasses.navigationIcon}
             icon={faAngleRight}
           />
-          <Link to="/summer-courses" className={mainClasses.navigationLink}>
-            Летние краткосрочные программы
+          <Link
+            to="/zddt-kiosk/summer-courses"
+            className={mainClasses.navigationLink}
+          >
+            Краткосрочные образовательные программы
           </Link>
           <FontAwesomeIcon
             className={mainClasses.navigationIcon}

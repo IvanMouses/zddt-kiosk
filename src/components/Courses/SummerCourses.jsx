@@ -169,9 +169,9 @@ export default function Courses() {
           </Link>
         </div>
         <div
-          style={
-            active ? { marginBottom: 60 + "px" } : { marginBottom: 10 + "px" }
-          }
+          // style={
+          //   active ? { marginBottom: 60 + "px" } : { marginBottom: 10 + "px" }
+          // }
           className={classes.coursesHeader}
         >
           <h2 className={classes.coursesTitle}>
@@ -331,7 +331,7 @@ export default function Courses() {
             </div>
           </div>
         </div>
-        <a
+        {/* <a
           target="_blank"
           href="/zddt-kiosk/docs/schedule-summer.pdf"
           className={
@@ -345,7 +345,7 @@ export default function Courses() {
             className={classes.coursesScheduleIcon}
           />
           <p>Расписание занятий</p>
-        </a>
+        </a> */}
         {showingCourseCards ? null : (
           <div className={classes.coursesCardsMissingPage}>
             <img
